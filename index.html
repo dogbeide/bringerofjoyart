@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visual Art/Healing/Music</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="https://www.iamboyowa.art">LOGO</a>
+      
+    </div>
+    <div class="links">
+      <div><a href="#visual-slam">VISUAL</a></div>
+      <div><a href="#sound">SOUND</a></div>
+      <div><a href="#healing">HEALING</a></div>
+      <div><a href="#whoami">WHOAMI</a></div>
+      <div><a href="">BLOG</a></div>
+      <div><a href="#connect">CONNECT</a></div>
+    </div>
+  </nav>
+  
+  <main>
+    main body area
+
+    <div id="visual-slam">
+      <div class="book-cover">
+        <img src="" alt="visual-slam-artpoetrybook_img">
+      </div>
+      <div class="desc">
+        <span>
+          64 pages of wonderfully awesomely-packed goodness! <br><br>
+          Some funny pictures in there too. <br><br>
+          You will start to change. <br><br>
+        </span>
+      </div>
+    </div>
+
+    <div id="sound">
+      music spoken word
+    </div>
+
+    <div id="healing">
+      healing
+    </div>
+
+    <div id="whoami">
+      <div class="desc">
+        Boyowa was born in the UK, raised in Canada, and has been a nomad his whole life <br>
+        <br>
+        
+      </div>
+      <div class="boyowa">
+        <img src="" alt="self_potrait">
+      </div>
+    </div>
+
+    <div id="connect">
+      connect
+      <form>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="text" placeholder="Subject" required>
+        <input type="email" name="" id="" placeholder="Email">
+        <textarea name="" id="" cols="30" rows="10" placeholder="What's up?" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div class="socials">
+        <a class="icon" href="https://www.instagram.com/iamboyowa" target="_blank">insta</a>
+        <a class="icon" href="https://wa.me/14374324885" target="_blank">whatsapp</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Copyright © <span id="year"></span> iamboyowa
+  </footer>
+  
+  <script>
+    let year = new Date().getFullYear();
+    document.getElementById('year').textContent = year;
+  </script>
+</body>
+</html>

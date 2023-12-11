@@ -1,0 +1,100 @@
+a {
+  text-decoration: none;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+nav .logo {
+  height: 60px;
+  width: 60px;
+  background-color: beige;
+}
+nav .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main div {
+  margin-top: 20px;
+}
+
+#visual-slam {
+  display: flex;
+  flex-direction: row;
+}
+#visual-slam .book-cover {
+  width: 200px;
+  height: 300px;
+  background-color: brown;
+}
+#visual-slam .desc {
+  max-width: 200px;
+}
+#visual-slam .desc span {
+  vertical-align: middle;
+}
+
+#whoami {
+  display: flex;
+  flex-direction: row;
+}
+#whoami .desc {
+  max-width: 200px;
+}
+#whoami .boyowa {
+  width: 200px;
+  height: 250px;
+  background-color: blanchedalmond;
+}
+
+#connect {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+#connect form {
+  display: flex;
+  flex-direction: column;
+}
+#connect .socials {
+  display: flex;
+  justify-content: flex-start;
+}
+#connect .socials .icon {
+  width: 30px;
+  margin: 0 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: whitesmoke;
+  background-color: rgb(26, 0, 0);
+}
+.footer #year {
+  margin: 0 3px;
+}
+
+@media only screen and (max-width: 620px) {
+  #visual-slam {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=index.css.map */
