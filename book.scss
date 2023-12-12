@@ -1,0 +1,150 @@
+.book {
+  width: 200px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  // margin-top: 48px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.book-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.book-back {
+  background-color: yellow;
+}
+
+.book-inner,
+.book-pages::before,
+.book-pages::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  transform-origin: left center;
+  transition: transform 0.2s ease-in;
+}
+
+.book-cover,
+.book-pages {
+  transform-style: preserve-3d;
+}
+
+.book-pages {
+  transform: scale(0.95, 0.9);
+  perspective: 2000px;
+
+  &::before,
+  &::after {
+    background-color: #fff;
+    background-image: linear-gradient(to right, rgba(#000, 0.2), rgba(#000, 0.075) 97%, transparent);
+    box-shadow: 1px 4px 5px 0 rgba(#000, 0.05);
+    content: "";
+  }
+}
+
+.book-cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.book-back,
+.book-pages {
+  right: 0;
+  bottom: 0;
+}
+
+.book-pages {
+  &::after {
+    transition-delay: 0.12s;
+  }
+  &::before {
+    transition-delay: 0.105s;
+  }
+}
+
+.book-pages + .book-pages {
+  &::after {
+    transition-delay: 0.09s;
+  }
+  &::before {
+    transition-delay: 0.075s;
+  }
+}
+
+.book-pages + .book-pages + .book-pages {
+  &::after {
+    transition-delay: 0.06s;
+  }
+  &::before {
+    transition-delay: 0.045s;
+  }
+}
+
+.book-pages + .book-pages + .book-pages + .book-pages {
+  &::after {
+    transition-delay: 0.03s;
+  }
+  &::before {
+    transition-delay: 0.015s;
+  }
+}
+
+.book:hover {
+  .book-back,
+  .book-cover::before {
+    box-shadow: inset -2px 0 1px rgba(#000, 0.075);
+  }
+
+  .book-cover {
+    transform: rotateY(-40deg);
+    transform-timing-function: ease-out;
+    transition-delay: 0s;
+  }
+
+  .book-pages {
+    &::after {
+      transform: rotateY(-12deg);
+    }
+    &::before {
+      transform: rotateY(-8deg);
+    }
+  }
+
+  .book-pages + .book-pages {
+    &::after {
+      transform: rotateY(-20deg);
+    }
+    &::before {
+      transform: rotateY(-16deg);
+    }
+  }
+
+  .book-pages + .book-pages + .book-pages {
+    &::after {
+      transform: rotateY(-28deg);
+    }
+    &::before {
+      transform: rotateY(-24deg);
+    }
+  }
+
+  .book-pages + .book-pages + .book-pages + .book-pages {
+    &::after {
+      transform: rotateY(-36deg);
+    }
+    &::before {
+      transform: rotateY(-32deg);
+    }
+  }
+}

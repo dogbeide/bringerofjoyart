@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Visual Art/Healing/Music</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="book.css">
   <link rel="icon" type="image/x-icon" href="favicon.svg">
 </head>
 <body>
@@ -28,10 +29,19 @@
   <main>
     main body area
 
-    <div id="visual-slam">
-      <div class="book-cover">
-        <img src="(just front cover) VISUAL-SLAM_200x250.png" alt="visual-slam-artpoetrybook_img">
+    <div id="visual-slam" class="container">
+
+      <div class="book">
+        <div class="book-back book-inner"></div>
+        <div class="book-pages book-inner"></div>
+        <div class="book-pages book-inner"></div>
+        <div class="book-pages book-inner"></div>
+        <div class="book-pages book-inner"></div>
+        <div class="book-cover book-inner">
+          <img src="(just front cover) VISUAL-SLAM_200x250.png" alt="visual-slam-artpoetrybook_img"/>
+        </div>
       </div>
+      
       <div class="desc">
         <span>
           64 pages of wonderfully awesomely-packed goodness! <br><br>
@@ -41,15 +51,17 @@
       </div>
     </div>
 
-    <div id="sound">
+
+
+    <div id="sound" class="container">
       music spoken word
     </div>
 
-    <div id="healing">
+    <div id="healing" class="container">
       healing
     </div>
 
-    <div id="whoami">
+    <div id="whoami" class="container">
       <div class="desc">
         Boyowa was born in the UK, raised in Canada, and has been a nomad his whole life <br>
         <br>
@@ -60,7 +72,7 @@
       </div>
     </div>
 
-    <div id="connect">
+    <div id="connect" class="container">
       connect
       <form>
         <input type="text" placeholder="First Name" required>
