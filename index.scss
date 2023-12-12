@@ -2,13 +2,21 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
 
+.anchor {
+  scroll-margin-top: 64px;
+}
+
 .text-shadow {
   text-shadow: 1px 1px 3px rgba(#FFFDD0, 1);
-  transition: text-shadow 0.1s ease-in;
+  transition: text-shadow 0.05s ease-in;
   &:hover {
     text-shadow: 1px 1px 3px rgba(#000, 0.4);
   }
@@ -54,11 +62,6 @@ main {
   justify-content: space-between;
   width: 90%;
   max-width: 420px;
-
-  .book-cover {
-    width: 200px;
-    height: 300px;
-  }
 
   .desc {
     max-width: 200px;
