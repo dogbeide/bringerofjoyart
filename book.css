@@ -5,6 +5,11 @@
   margin-right: auto;
   position: relative;
   perspective: 1000px;
+  z-index: 2;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.book:hover {
+  cursor: pointer;
 }
 
 .book-image {

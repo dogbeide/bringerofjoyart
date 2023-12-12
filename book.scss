@@ -6,6 +6,13 @@
   // margin-top: 48px;
   position: relative;
   perspective: 1000px;
+  z-index: 2;
+
+  box-shadow: 2px 2px 2px rgba(#000, 0.5);
+
+  &:hover {
+    cursor:pointer;
+  }
 }
 
 .book-image {
@@ -43,7 +50,12 @@
   &::before,
   &::after {
     background-color: #fff;
-    background-image: linear-gradient(to right, rgba(#000, 0.2), rgba(#000, 0.075) 97%, transparent);
+    background-image: linear-gradient(
+      to right,
+      rgba(#000, 0.2),
+      rgba(#000, 0.075) 97%,
+      transparent
+    );
     box-shadow: 1px 4px 5px 0 rgba(#000, 0.05);
     content: "";
   }

@@ -1,5 +1,17 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
 a {
   text-decoration: none;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 3px #fffdd0;
+  transition: text-shadow 0.1s ease-in;
+}
+.text-shadow:hover {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 nav {
@@ -9,6 +21,7 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: white;
+  z-index: 6;
 }
 nav .logo {
   height: 60px;
@@ -47,6 +60,7 @@ main .container {
   max-width: 200px;
 }
 #visual-slam .desc span {
+  text-shadow: 1px 1px 3px #fffdd0;
   vertical-align: middle;
 }
 
@@ -101,5 +115,9 @@ main .container {
   }
   #visual-slam {
     flex-direction: column;
+    align-items: center;
+  }
+  #visual-slam .desc {
+    margin-top: 15px;
   }
 }/*# sourceMappingURL=index.css.map */
