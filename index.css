@@ -13,7 +13,7 @@ nav {
 nav .logo {
   height: 60px;
   width: 60px;
-  background-color: beige;
+  margin-left: 30px;
 }
 nav .links {
   display: flex;
@@ -35,11 +35,13 @@ main div {
 #visual-slam {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 420px;
 }
 #visual-slam .book-cover {
   width: 200px;
   height: 300px;
-  background-color: brown;
 }
 #visual-slam .desc {
   max-width: 200px;
@@ -94,6 +96,9 @@ main div {
 }
 
 @media only screen and (max-width: 620px) {
+  nav .logo {
+    margin-left: 10px;
+  }
   #visual-slam {
     flex-direction: column;
   }
