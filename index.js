@@ -1,10 +1,10 @@
 let year = new Date().getFullYear();
 document.getElementById("year").textContent = year;
 
-function delay(URL) {
+function delayOpen(URL, ms=500) {
   setTimeout(function () {
     window.open(URL, "_blank");
-  }, 500);
+  }, ms);
 }
 
 const boyowa = $('.boyowa');
