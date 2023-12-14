@@ -67,25 +67,46 @@
           Boyowa means 'Bringer of Joy' in the Itsekiri language of Nigeria.
           <br />
           He was born in the UK, raised in Canada, and has been a nomad his
-          whole life <br />
+          whole life.<br />
           <br />
           He started writing poetry, comics, art, and music from a little boy,
-          discovered music production in his early teens. Since then, he has
-          been exploring a variety of genres and art-styles since then such as:
-          singing, songwriting, freestyle rapping, and both visual and media
-          art design. <br />
+          and discovered music production in his early teens. Since then, he has
+          been exploring a variety of genres and art-styles such as<span
+            class="ellipsis"
+            >...</span
+          >
+          <span class="show-more" onclick="showMore(1)">(show more)</span>
+
+          <span class="more-to-show">
+            singing, songwriting, freestyle rapping, and both visual and media
+            art design.<br />
+            <br />
+            Healing has been a huge component in his life and has been the main
+            focus ever since he started meditating at age 22. <br />
+            He is very well experienced with breathwork practices,
+            transformational psychology, and is a certified Reiki Master
+            practitioner with years under his belt. <br />
+            <br />
+            He has explored Shamanism, has been on an integrative journey with
+            nature to realizing this, and is highly experienced with various
+            forms of<span class="ellipsis">...</span>
+
+            <span class="show-more" onclick="showMore(2)">(show more)</span>
+          </span>
+
+          <span class="more-to-show"
+            >subconscious integration, the zero point field, sound healing, and
+            quantum energy work, all using his hands and voice.
+            <br />
+            <br />
+            Boyowa loves to laugh, live, and joke around. Life is fun! Life is
+            candid, life is a joke (above all, lol!). <br />
+            Joy is his fuel, Love is his sustenance, and connection to Source is
+            at the heart of all creation.</span
+          >
+
           <br />
-          Healing has been a huge component in his life and has been the main focus
-          ever since he started meditating at age 22. <br>
-          He is very well experienced with breathwork practices,
-          transformational psychology, and is a certified Reiki Master practitioner with years under his belt. <br>
-          He has explored Shamanism, has been on an integrative journey with nature to realizing this, 
-          and is highly experienced with various forms of subconscious integration, the zero point field, 
-          sound healing, and quantum energy work, all using his hands and voice. <br>
-          <br>
-          Boyowa loves to laugh, live, and joke around. Life is fun! Life is candid, life is a joke (above all, lol!). <br>
-          Joy is his fuel, Love is his sustenance, and connection to Source is at the heart of all creation.
-          <br />
+
           <span class="text-break">~</span>
         </div>
       </div>
@@ -139,6 +160,17 @@
         setTimeout(function () {
           window.open(URL, "_blank");
         }, 500);
+      }
+
+      function showMore(num) {
+        const whoami = document.getElementById("whoami");
+        const showMoreBtns = whoami.getElementsByClassName("show-more");
+        const ellipsisArr = whoami.getElementsByClassName("ellipsis");
+        const moreToShowArr = whoami.getElementsByClassName("more-to-show");
+
+        showMoreBtns[num - 1].style.display = "none";
+        ellipsisArr[num - 1].style.display = "none";
+        moreToShowArr[num - 1].style.display = "inline";
       }
     </script>
   </body>
