@@ -8,10 +8,12 @@ function delay(URL) {
 }
 
 const boyowa = $('.boyowa');
+const num = boyowa.length;
+
 let i = 0;
 function slideShow() {
-  boyowa.eq(i%3).fadeOut(500);
-  boyowa.eq((i+1)%3).fadeIn(500);
+  boyowa.eq(i%num).fadeOut(500);
+  boyowa.eq((i+1)%num).fadeIn(500);
   // setTimeout(boyowa.eq((i+1)%3).fadeIn(500), 1000)
   
   // console.log(i)
