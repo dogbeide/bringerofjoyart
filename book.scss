@@ -120,7 +120,7 @@
 
   .book-cover {
     transform: rotateY(-40deg);
-    transform-timing-function: ease-out;
+    transition-timing-function: ease-out;
     transition-delay: 0s;
   }
 
