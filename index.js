@@ -7,6 +7,18 @@ function delay(URL) {
   }, 500);
 }
 
+const boyowa = $('.boyowa');
+let i = 0;
+function slideShow() {
+  boyowa.eq(i%3).fadeOut(500);
+  boyowa.eq((i+1)%3).fadeIn(500);
+  // setTimeout(boyowa.eq((i+1)%3).fadeIn(500), 1000)
+  
+  // console.log(i)
+  i++;
+}
+setInterval(slideShow, 5000);
+
 const whoami = document.getElementById("whoami");
 const showMoreBtns = whoami.getElementsByClassName("show-more");
 const ellipsisArr = whoami.getElementsByClassName("ellipsis");

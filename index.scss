@@ -23,8 +23,8 @@ a {
   }
 }
 
-.padding-0 {
-  padding: 0;
+.hidden {
+  display: none;
 }
 
 nav {
@@ -90,6 +90,8 @@ main {
   }
 }
 
+
+
 #whoami {
   display: flex;
   flex-direction: column;
@@ -98,10 +100,20 @@ main {
   background-color: blanchedalmond;
   width: 100%;
 
-  .boyowa {
-    width: 176px;
+  .slideshow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
     height: 176px;
+    
+    .boyowa {
+      position: absolute;
+      height: 176px;
+      width: auto;
+    }
   }
+  
 
   .desc {
     max-width: 400px;

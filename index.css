@@ -23,8 +23,8 @@ a {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-.padding-0 {
-  padding: 0;
+.hidden {
+  display: none;
 }
 
 nav {
@@ -87,9 +87,17 @@ main .container {
   background-color: blanchedalmond;
   width: 100%;
 }
-#whoami .boyowa {
-  width: 176px;
+#whoami .slideshow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
   height: 176px;
+}
+#whoami .slideshow .boyowa {
+  position: absolute;
+  height: 176px;
+  width: auto;
 }
 #whoami .desc {
   max-width: 400px;
