@@ -1,5 +1,6 @@
 .sun-container {
   position: relative;
+  transition: all 0.2s ease-in-out;
 }
 .sun-container .sun {
   position: absolute;
@@ -12,6 +13,18 @@
   left: 14px;
   position: absolute;
   z-index: 2;
+}
+.sun-container:hover .sun {
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8, 0.8);
+}
+.sun-container:hover img {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05, 1.05);
+}
+.sun-container:active img {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1, 1.1);
 }
 
 .sun {

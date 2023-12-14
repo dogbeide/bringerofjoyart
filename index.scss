@@ -1,5 +1,5 @@
 * {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
@@ -15,7 +15,7 @@ a {
 }
 
 .text-shadow {
-  text-shadow: 1px 1px 3px rgba(#FFFDD0, 1);
+  text-shadow: 1px 1px 3px rgba(#fffdd0, 1);
   transition: text-shadow 0.05s ease-in;
   &:hover {
     text-shadow: 1px 1px 3px rgba(#000, 0.4);
@@ -65,9 +65,9 @@ main {
 
   .desc {
     max-width: 200px;
-  
+
     span {
-      text-shadow: 1px 1px 3px rgba(#FFFDD0, 1);
+      text-shadow: 1px 1px 3px rgba(#fffdd0, 1);
       vertical-align: middle;
     }
   }
@@ -125,12 +125,10 @@ main {
 }
 
 @media only screen and (max-width: 620px) {
-
   nav {
     .logo {
       margin-left: 10px;
     }
-
   }
 
   #visual-slam {
