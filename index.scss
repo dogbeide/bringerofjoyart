@@ -1,11 +1,11 @@
 * {
-  font-family: "Courier New", Courier, monospace;
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 
 a {
@@ -93,6 +93,10 @@ main {
   display: flex;
   justify-content: center;
   width: 100%;
+  // font-family: Amatic SC;
+  font-family: Cabin Sketch;
+  font-style: italic;
+  font-size: 18px;
   // background-color: skyblue;
   background-image: linear-gradient(
     to right,
@@ -150,12 +154,14 @@ main {
   .desc {
     max-width: 400px;
     padding: 0 15px;
+    font-family: Cabin Sketch;
+    // font-weight: 700;
   }
 
   .show-more {
     color: palevioletred;
     display: block;
-    font-weight: bold;
+    // font-weight: bold;
     padding-top: 10px;
     text-align: center;
     cursor: pointer;
@@ -200,7 +206,9 @@ main {
   .connect {
     .title {
       display: block;
-      font-size: 21px;
+      font-family: Amatic SC;
+      letter-spacing: 0.3rem;
+      font-size: 24px;
       font-weight: bold;
       padding-bottom: 10px;
       width: 100%;
@@ -228,6 +236,7 @@ main {
     }
 
     .form-input {
+      font-family: "Courier New", Courier, monospace;
       border: 1px solid rgba(135, 206, 235, 1);
       padding: 7px 3px;
       background-image: linear-gradient(
@@ -291,6 +300,7 @@ main {
 
 .footer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100px;

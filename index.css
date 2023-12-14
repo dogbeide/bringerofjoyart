@@ -1,11 +1,11 @@
 * {
-  font-family: "Courier New", Courier, monospace;
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 
 a {
@@ -75,6 +75,9 @@ main .container .grain {
   display: flex;
   justify-content: center;
   width: 100%;
+  font-family: Cabin Sketch;
+  font-style: italic;
+  font-size: 18px;
   background-image: linear-gradient(to right, white, white 50%, rgba(135, 206, 235, 0.5));
 }
 #visual-slam .stuff {
@@ -117,11 +120,11 @@ main .container .grain {
 #whoami .desc {
   max-width: 400px;
   padding: 0 15px;
+  font-family: Cabin Sketch;
 }
 #whoami .show-more, #whoami .show-less {
   color: palevioletred;
   display: block;
-  font-weight: bold;
   padding-top: 10px;
   text-align: center;
   cursor: pointer;
@@ -154,7 +157,9 @@ main .container .grain {
 }
 #connect .connect .title {
   display: block;
-  font-size: 21px;
+  font-family: Amatic SC;
+  letter-spacing: 0.3rem;
+  font-size: 24px;
   font-weight: bold;
   padding-bottom: 10px;
   width: 100%;
@@ -175,6 +180,7 @@ main .container .grain {
   resize: vertical;
 }
 #connect .connect .form-input {
+  font-family: "Courier New", Courier, monospace;
   border: 1px solid rgb(135, 206, 235);
   padding: 7px 3px;
   background-image: linear-gradient(to bottom right, white, white 50%, rgba(135, 206, 235, 0.2));
@@ -222,6 +228,7 @@ main .container .grain {
 
 .footer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100px;
