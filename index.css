@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -53,9 +54,21 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
 main .container {
   padding: 25px 0;
+  z-index: 2;
+}
+main .container .grain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(grain.svg);
+  opacity: 0.25;
+  z-index: -2;
 }
 
 #visual-slam {
@@ -85,7 +98,9 @@ main .container {
   justify-content: center;
   align-items: center;
   background-color: blanchedalmond;
+  background-image: linear-gradient(to left, white, blanchedalmond 40%, blanchedalmond);
   width: 100%;
+  position: relative;
 }
 #whoami .slideshow {
   display: flex;
@@ -133,12 +148,44 @@ main .container {
 #connect {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
-  width: 300px;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, white, white 50%, rgba(135, 206, 235, 0.5));
+}
+#connect .title {
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: center;
 }
 #connect form {
   display: flex;
   flex-direction: column;
+  width: 300px;
+}
+#connect form > * {
+  margin: 1px 0;
+}
+#connect form button:hover {
+  cursor: pointer;
+}
+#connect form textarea {
+  resize: vertical;
+}
+#connect .form-input {
+  border: 1px solid rgb(135, 206, 235);
+  padding: 7px 3px;
+  background-image: linear-gradient(to bottom right, white, white 50%, rgba(135, 206, 235, 0.2));
+}
+#connect .first-last-name {
+  display: grid;
+  grid-template-columns: 150px 150px;
+}
+#connect .first-last-name .first {
+  margin-right: 1px;
+}
+#connect .first-last-name .last {
+  margin-left: 1px;
 }
 #connect .socials {
   display: flex;

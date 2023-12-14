@@ -34,6 +34,7 @@
 
     <main>
       <div id="visual-slam" class="container anchor">
+        <!-- <img class="grain-dient" src="grain.svg" alt=""> -->
         <div class="stuff">
           <a href="javascript:delay('https://www.amazon.ca/dp/1738227502')">
             <div class="book">
@@ -59,13 +60,14 @@
             </span>
           </div>
         </div>
+        <div class="grain"></div>
       </div>
 
       <!-- <div id="sound" class="container"></div>
 
       <div id="healing" class="container"></div> -->
 
-      <div id="whoami" class="container anchor">
+      <div id="whoami" class="container anchor grain">
         <div class="slideshow">
           <img
             class="boyowa"
@@ -141,25 +143,30 @@
           >
 
           <span class="text-break">~</span>
+          
         </div>
+        <div class="grain"></div>
       </div>
 
       <div id="connect" class="container anchor">
-        connect
+        <span class="title">CONNECT</span>
         <form>
-          <input type="text" placeholder="First Name" required />
-          <input type="text" placeholder="Last Name" required />
-          <input type="text" placeholder="Subject" required />
-          <input type="email" name="" id="" placeholder="Email" />
+          <div class="first-last-name">
+            <input class="first form-input" type="text" placeholder="First Name" required />
+            <input class="last form-input" type="text" placeholder="Last Name" required />
+          </div>
+          <input class="form-input" type="text" placeholder="Subject" required />
+          <input class="form-input" type="email" name="" id="" placeholder="Email" />
           <textarea
             name=""
             id=""
+            class="form-input"
             cols="30"
             rows="10"
             placeholder="What's up?"
             required
           ></textarea>
-          <button type="submit">Send</button>
+          <button class="form-input" type="submit">Send</button>
         </form>
         <div class="socials">
           <a

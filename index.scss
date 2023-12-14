@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -55,9 +56,37 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 
   .container {
     padding: 25px 0;
+    z-index: 2;
+
+    .grain {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(grain.svg);
+      // background: url(grain.svg);
+      // background-image: url(grain.svg), linear-gradient(to right, transparent, transparent 50%, #d13531);
+      // background-repeat: repeat;
+      opacity: 0.25;
+      z-index: -2;
+    }
+
+    // .grain-dient {
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 100%;
+    //   // -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    //   mask-image: linear-gradient(to left, white, white 50%, rgba(0,0,0,0));
+    //   opacity: 0.25;
+    // }
+    
   }
 }
 
@@ -90,15 +119,20 @@ main {
   }
 }
 
-
-
 #whoami {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: blanchedalmond;
+  background-image: linear-gradient(
+    to left,
+    white,
+    blanchedalmond 40%,
+    blanchedalmond
+  );
   width: 100%;
+  position: relative;
 
   .slideshow {
     display: flex;
@@ -106,14 +140,13 @@ main {
     justify-content: center;
     position: relative;
     height: 176px;
-    
+
     .boyowa {
       position: absolute;
       height: 176px;
       width: auto;
     }
   }
-  
 
   .desc {
     max-width: 400px;
@@ -150,18 +183,68 @@ main {
     text-align: center;
     padding-top: 10px;
     margin: 0 auto;
-  };
+  }
 }
 
 #connect {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
-  width: 300px;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    white,
+    white 50%,
+    rgba(135, 206, 235, 0.5)
+  );
+
+  .title {
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+  }
 
   form {
     display: flex;
     flex-direction: column;
+    width: 300px;
+
+    & > * {
+      margin: 1px 0;
+    }
+
+    button {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    textarea {
+      resize: vertical;
+    }
+  }
+
+  .form-input {
+    border: 1px solid rgba(135, 206, 235, 1);
+    padding: 7px 3px;
+    background-image: linear-gradient(
+      to bottom right,
+      white,
+      white 50%,
+      rgba(135, 206, 235, 0.2)
+    );
+  }
+  .first-last-name {
+    display: grid;
+    grid-template-columns: 150px 150px;
+
+    .first {
+      margin-right: 1px;
+    }
+    .last {
+      margin-left: 1px;
+    }
   }
 
   .socials {
