@@ -9,8 +9,8 @@
 .sun-container img {
   width: 60px;
   height: 60px;
-  top: 14px;
-  left: 14px;
+  top: 10px;
+  left: 10px;
   position: absolute;
   z-index: 2;
 }
@@ -28,8 +28,8 @@
 }
 
 .sun {
-  width: 88px;
-  height: 88px;
+  width: 80px;
+  height: 80px;
   position: relative;
   background: radial-gradient(transparent 50%, white), radial-gradient(yellow, transparent 70%);
   -webkit-mask-image: radial-gradient(rgb(0, 0, 0) 40%, transparent 65%);
