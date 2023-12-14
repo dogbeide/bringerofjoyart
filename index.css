@@ -116,6 +116,7 @@ main .container .grain {
   position: absolute;
   height: 176px;
   width: auto;
+  border-radius: 50%;
 }
 #whoami .desc {
   max-width: 400px;
