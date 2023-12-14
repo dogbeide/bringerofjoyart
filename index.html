@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="book.css" />
     <link rel="stylesheet" href="sun.css" />
     <link rel="icon" type="image/x-icon" href="favicon.svg" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav>
@@ -152,35 +157,6 @@
       />
       Copyright © <span id="year"></span> iamboyowa
     </footer>
-
-    <script>
-      let year = new Date().getFullYear();
-      document.getElementById("year").textContent = year;
-
-      function delay(URL) {
-        setTimeout(function () {
-          window.open(URL, "_blank");
-        }, 500);
-      }
-
-      const whoami = document.getElementById("whoami");
-      const showMoreBtns = whoami.getElementsByClassName("show-more");
-      const ellipsisArr = whoami.getElementsByClassName("ellipsis");
-      const moreToShowArr = whoami.getElementsByClassName("more-to-show");
-
-      function showMore(num) {
-        showMoreBtns[num - 1].style.display = "none";
-        ellipsisArr[num - 1].style.display = "none";
-        moreToShowArr[num - 1].style.display = "inline";
-      }
-
-      function showLess() {
-        for (let i = 0; i < showMoreBtns.length; i++) {
-          showMoreBtns[i].style.display = "block";
-          ellipsisArr[i].style.display = "inline";
-          moreToShowArr[i].style.display = "none";
-        }
-      }
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
