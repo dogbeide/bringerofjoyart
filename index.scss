@@ -122,6 +122,11 @@ main {
     }
   }
 
+  .show-less {
+    @extend .show-more;
+    font-weight: normal;
+    font-size: 15;
+  }
   .more-to-show {
     display: none;
   }
@@ -174,7 +179,7 @@ main {
 @media only screen and (max-width: 620px) {
   nav {
     .logo {
-      margin-left: 10px;
+      margin-left: 5px;
     }
   }
 

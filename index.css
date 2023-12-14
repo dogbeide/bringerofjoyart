@@ -95,7 +95,7 @@ main .container {
   max-width: 400px;
   padding: 0 15px;
 }
-#whoami .show-more {
+#whoami .show-more, #whoami .show-less {
   color: palevioletred;
   display: block;
   font-weight: bold;
@@ -104,8 +104,12 @@ main .container {
   cursor: pointer;
   white-space: nowrap;
 }
-#whoami .show-more:hover {
+#whoami .show-more:hover, #whoami .show-less:hover {
   text-decoration: underline;
+}
+#whoami .show-less {
+  font-weight: normal;
+  font-size: 15;
 }
 #whoami .more-to-show {
   display: none;
@@ -151,7 +155,7 @@ main .container {
 
 @media only screen and (max-width: 620px) {
   nav .logo {
-    margin-left: 10px;
+    margin-left: 5px;
   }
   #visual-slam .stuff {
     flex-direction: column;

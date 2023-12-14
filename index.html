@@ -102,10 +102,11 @@
             Boyowa loves to laugh, live, and joke around. Life is fun! Life is
             candid, life is a joke (above all, lol!). <br />
             Joy is his fuel, Love is his sustenance, and connection to Source is
-            at the heart of all creation.</span
+            at the heart of all creation.
+            <span class="show-less" onclick="showLess()"
+              >(show less)</span
+            ></span
           >
-
-          <br />
 
           <span class="text-break">~</span>
         </div>
@@ -162,15 +163,23 @@
         }, 500);
       }
 
-      function showMore(num) {
-        const whoami = document.getElementById("whoami");
-        const showMoreBtns = whoami.getElementsByClassName("show-more");
-        const ellipsisArr = whoami.getElementsByClassName("ellipsis");
-        const moreToShowArr = whoami.getElementsByClassName("more-to-show");
+      const whoami = document.getElementById("whoami");
+      const showMoreBtns = whoami.getElementsByClassName("show-more");
+      const ellipsisArr = whoami.getElementsByClassName("ellipsis");
+      const moreToShowArr = whoami.getElementsByClassName("more-to-show");
 
+      function showMore(num) {
         showMoreBtns[num - 1].style.display = "none";
         ellipsisArr[num - 1].style.display = "none";
         moreToShowArr[num - 1].style.display = "inline";
+      }
+
+      function showLess() {
+        for (let i = 0; i < showMoreBtns.length; i++) {
+          showMoreBtns[i].style.display = "block";
+          ellipsisArr[i].style.display = "inline";
+          moreToShowArr[i].style.display = "none";
+        }
       }
     </script>
   </body>
