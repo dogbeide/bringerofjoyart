@@ -152,48 +152,72 @@ main .container .grain {
   width: 100%;
   background-image: linear-gradient(to bottom right, white, white 50%, rgba(135, 206, 235, 0.5));
 }
-#connect .title {
+#connect .connect .title {
+  display: block;
   font-size: 21px;
   font-weight: bold;
   padding-bottom: 10px;
+  width: 100%;
   text-align: center;
 }
-#connect form {
+#connect .connect form {
   display: flex;
   flex-direction: column;
   width: 300px;
 }
-#connect form > * {
+#connect .connect form > * {
   margin: 1px 0;
 }
-#connect form button:hover {
+#connect .connect form button:hover {
   cursor: pointer;
 }
-#connect form textarea {
+#connect .connect form textarea {
   resize: vertical;
 }
-#connect .form-input {
+#connect .connect .form-input {
   border: 1px solid rgb(135, 206, 235);
   padding: 7px 3px;
   background-image: linear-gradient(to bottom right, white, white 50%, rgba(135, 206, 235, 0.2));
 }
-#connect .first-last-name {
+#connect .connect .form-input:hover {
+  transition: 0.2s ease;
+  background-color: rgba(135, 206, 235, 0.2);
+  background-image: none;
+}
+#connect .connect .form-input:focus {
+  outline: none;
+}
+#connect .connect .first-last-name {
   display: grid;
   grid-template-columns: 150px 150px;
 }
-#connect .first-last-name .first {
+#connect .connect .first-last-name .first {
   margin-right: 1px;
 }
-#connect .first-last-name .last {
+#connect .connect .first-last-name .last {
   margin-left: 1px;
 }
-#connect .socials {
+#connect .connect .socials {
   display: flex;
   justify-content: flex-start;
+  flex-direction: row;
 }
-#connect .socials .icon {
-  width: 30px;
-  margin: 0 10px;
+#connect .connect .socials a {
+  display: block;
+  margin-top: 5px;
+}
+#connect .connect .socials a .icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 6px;
+}
+#connect .connect .socials a .icon:hover {
+  transition: 0.2s ease;
+  transform: scale(1.1, 1.1);
+}
+#connect .connect .socials a .icon:active {
+  background-color: rgb(135, 206, 235);
+  border-radius: 6px;
 }
 
 .footer {
