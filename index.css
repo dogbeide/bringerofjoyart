@@ -46,6 +46,9 @@ nav {
   justify-content: space-between;
   background-image: linear-gradient(white 85%, transparent);
   z-index: 6;
+  font-family: Amatic SC;
+  font-size: 23px;
+  letter-spacing: 0.1rem;
 }
 nav .logo {
   height: 60px;
