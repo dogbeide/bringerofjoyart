@@ -1,4 +1,4 @@
-let year = new Date().getFullYear();
+let year = new Date().getFullYear(); 
 document.getElementById("year").textContent = year;
 
 const amazon = 'https://www.amazon.com/dp/1738227502';
