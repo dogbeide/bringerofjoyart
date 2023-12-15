@@ -156,6 +156,9 @@ main .container .grain {
   width: 100%;
   background-image: linear-gradient(to bottom right, white, white 50%, rgba(135, 206, 235, 0.5));
 }
+#connect .connect {
+  width: 300px;
+}
 #connect .connect .title {
   display: block;
   font-family: Amatic SC;
@@ -169,7 +172,6 @@ main .container .grain {
 #connect .connect form {
   display: flex;
   flex-direction: column;
-  width: 300px;
 }
 #connect .connect form > * {
   margin: 1px 0;
@@ -196,7 +198,7 @@ main .container .grain {
 }
 #connect .connect .first-last-name {
   display: grid;
-  grid-template-columns: 150px 150px;
+  grid-template-columns: 50% 50%;
 }
 #connect .connect .first-last-name .first {
   margin-right: 1px;
@@ -241,8 +243,14 @@ main .container .grain {
 }
 
 @media only screen and (max-width: 620px) {
+  nav {
+    height: 60px;
+  }
   nav .logo {
+    height: 50px;
+    width: 50px;
     margin-left: 5px;
+    margin-top: 5px;
   }
   #visual-slam .stuff {
     flex-direction: column;
@@ -250,5 +258,8 @@ main .container .grain {
   }
   #visual-slam .stuff .desc {
     margin-top: 15px;
+  }
+  #connect .connect {
+    width: 270px;
   }
 }/*# sourceMappingURL=index.css.map */

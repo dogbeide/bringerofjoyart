@@ -205,6 +205,7 @@ main {
   );
 
   .connect {
+    width: 300px;
     .title {
       display: block;
       font-family: Amatic SC;
@@ -219,7 +220,6 @@ main {
     form {
       display: flex;
       flex-direction: column;
-      width: 300px;
 
       & > * {
         margin: 1px 0;
@@ -260,7 +260,7 @@ main {
     }
     .first-last-name {
       display: grid;
-      grid-template-columns: 150px 150px;
+      grid-template-columns: 50% 50%;
 
       .first {
         margin-right: 1px;
@@ -315,8 +315,12 @@ main {
 
 @media only screen and (max-width: 620px) {
   nav {
+    height: 60px;
     .logo {
+      height: 50px;
+      width: 50px;
       margin-left: 5px;
+      margin-top: 5px;
     }
   }
 
@@ -327,6 +331,12 @@ main {
       .desc {
         margin-top: 15px;
       }
+    }
+  }
+  
+  #connect {
+    .connect {
+      width: 270px;
     }
   }
 }

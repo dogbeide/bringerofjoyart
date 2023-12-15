@@ -83,4 +83,18 @@
   100% {
     transform: scale(1.2);
   }
+}
+@media only screen and (max-width: 620px) {
+  .sun-container {
+    top: -10px;
+    left: -10px;
+  }
+  .sun-container .sun {
+    width: 70px;
+    height: 70px;
+  }
+  .sun-container img {
+    width: 50px;
+    height: 50px;
+  }
 }/*# sourceMappingURL=sun.css.map */
