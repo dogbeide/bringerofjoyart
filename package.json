@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "all things iamboyowa art music visual sound healing",
   "dependencies": {
+    "@parcel/optimizer-swc": "^2.10.3",
     "@parcel/watcher": "^2.3.0",
     "abortcontroller-polyfill": "^1.7.5",
     "ansi-styles": "^4.3.0",
