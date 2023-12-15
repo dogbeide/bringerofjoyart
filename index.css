@@ -66,12 +66,11 @@ main {
   align-items: center;
   z-index: 1;
 }
-main .container {
-  padding: 25px 0;
+main .my-container {
   z-index: 2;
   display: relative;
 }
-main .container .grain {
+main .my-container .grain {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -93,6 +92,7 @@ main .container .grain {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 25px 0;
   width: 510px;
 }
 #visual-slam .stuff .desc {
@@ -112,6 +112,7 @@ main .container .grain {
   background-image: linear-gradient(to left, white, blanchedalmond 40%, blanchedalmond);
   width: 100%;
   position: relative;
+  padding: 25px 0;
 }
 #whoami .slideshow {
   display: flex;
@@ -163,6 +164,7 @@ main .container .grain {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding: 25px 0;
   background-image: linear-gradient(to bottom right, white, white 50%, rgba(135, 206, 235, 0.5));
 }
 #connect .connect {
