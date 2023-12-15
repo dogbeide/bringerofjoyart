@@ -69,16 +69,15 @@ main {
 main .container {
   padding: 25px 0;
   z-index: 2;
+  display: relative;
 }
 main .container .grain {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-image: url(grain.svg);
   opacity: 0.25;
-  z-index: -2;
+  z-index: 0;
 }
 
 #visual-slam {
@@ -94,11 +93,10 @@ main .container .grain {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 420px;
-  width: 420px;
+  width: 510px;
 }
 #visual-slam .stuff .desc {
-  max-width: 200px;
+  max-width: 250px;
 }
 #visual-slam .stuff .desc span {
   text-shadow: 1px 1px 3px #fffdd0;
@@ -132,6 +130,7 @@ main .container .grain {
   max-width: 400px;
   padding: 0 15px;
   font-family: Cabin Sketch;
+  z-index: 1;
 }
 #whoami .show-more, #whoami .show-less {
   color: palevioletred;
