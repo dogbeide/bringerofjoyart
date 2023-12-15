@@ -1,9 +1,26 @@
 let year = new Date().getFullYear();
 document.getElementById("year").textContent = year;
 
-function delayOpen(URL, ms=500) {
+const amazon = 'https://www.amazon.com/dp/1738227502';
+const music = 'https://linktr.ee/iamboyowa';
+const instagram = 'https://www.instagram.com/iamboyowa';
+const whatsapp = 'https://wa.me/14374324885';
+
+function delayOpen(linkName, ms=500) {
   setTimeout(function () {
-    window.open(URL, "_blank");
+    switch(linkName) {
+      case 'amazon':
+        window.open(amazon, "_blank");
+      case 'music':
+        window.open(music, "_blank");
+      case 'instagram':
+        window.open(instagram, "_blank");
+      case 'whatsapp':
+        window.open(whatsapp, "_blank");
+      default:
+        console.log('Error: window open link not defined')
+        return;
+    }
   }, ms);
 }
 

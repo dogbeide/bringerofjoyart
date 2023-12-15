@@ -11,6 +11,9 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+}
 
 .anchor {
   scroll-margin-top: 64px;
