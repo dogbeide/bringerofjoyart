@@ -15,7 +15,6 @@
       rel="stylesheet"
     />
 
-
     <link rel="icon" type="image/x-icon" href="favicon.svg" />
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -53,19 +52,32 @@
       </div>
 
       <div class="dropdown" id="nav-dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
           Menu
         </a>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        <div
+          class="dropdown-menu dropdown-menu-right"
+          aria-labelledby="navbarDropdown"
+        >
           <a class="dropdown-item_my text-shadow" href="#visual-slam">VISUAL</a>
           <a class="dropdown-item_my text-shadow" href="#whoami">WHOAMI</a>
           <a class="dropdown-item_my text-shadow" href="#connect">CONNECT</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item_my text-shadow" href="javascript:delayOpen('https://linktr.ee/iamboyowa', 400)">MUSIC</a>
+          <a
+            class="dropdown-item_my text-shadow"
+            href="javascript:delayOpen('https://linktr.ee/iamboyowa', 400)"
+            >MUSIC</a
+          >
         </div>
       </div>
-      
-
     </nav>
 
     <main>
@@ -188,36 +200,55 @@
       <div id="connect" class="container anchor">
         <div class="connect">
           <span class="title">- CONNECT -</span>
-          <form id="connect-form">
+          <form
+            target="_blank"
+            id="connect-form"
+            action="https://formsubmit.co/a64a9eb18d086f36155be016a17e0bf6"
+            method="POST"
+            onsubmit="handleSubmit(event)"
+          >
             <div class="first-last-name">
               <input
+                id="first-name"
                 class="first form-input"
                 type="text"
                 placeholder="First Name"
                 required
               />
               <input
+                id="last-name"
                 class="last form-input"
+                type="text"
+                placeholder="Last Name"
+                required
+              />
+              <input
+                type='hidden'
+                id="name-to-send"
+                class="last form-input"
+                name="name"
                 type="text"
                 placeholder="Last Name"
                 required
               />
             </div>
             <input
+              id="form-subject"
               class="form-input"
               type="text"
+              name="_subject"
               placeholder="Subject"
               required
             />
             <input
               class="form-input"
               type="email"
-              name=""
+              name="email"
               id=""
               placeholder="Email"
             />
             <textarea
-              name=""
+              name="message"
               id=""
               class="form-input"
               cols="30"
@@ -225,6 +256,7 @@
               placeholder="What's up?"
               required
             ></textarea>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html" />
             <button class="form-input" type="submit">Send</button>
           </form>
           <div class="socials">

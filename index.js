@@ -42,3 +42,15 @@ function showLess() {
     // moreToShowArr[i].style.display = "none";
   }
 }
+
+function handleSubmit(event) {
+  // event.preventDefault();
+  const first = document.getElementById('first-name').value;
+  const last = document.getElementById('last-name').value;
+  const name = first + ' ' + last;
+  document.getElementById('name-to-send').value = name;
+
+  const subject = document.getElementById('form-subject');
+  subject.value = "website #connect:  " + subject.value;
+  // event.preventDefault();
+}
