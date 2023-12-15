@@ -23,6 +23,7 @@
     "css-tree": "^2.3.1",
     "css-what": "^6.1.0",
     "csso": "^5.0.5",
+    "del-cli": "^5.1.0",
     "detect-libc": "^1.0.3",
     "dom-serializer": "^1.4.1",
     "domelementtype": "^2.3.0",
@@ -66,6 +67,7 @@
     "nth-check": "^2.1.1",
     "nullthrows": "^1.1.1",
     "ordered-binary": "^1.5.1",
+    "parcel": "^2.10.3",
     "parent-module": "^1.0.1",
     "parse-json": "^5.2.0",
     "path-type": "^4.0.0",
@@ -97,15 +99,12 @@
     "weak-lru-cache": "^1.2.2",
     "yallist": "^4.0.0"
   },
-  "devDependencies": {
-    "del-cli": "^5.1.0",
-    "parcel": "^2.10.3"
-  },
   "source": "index.html",
   "scripts": {
     "dev": "npm start",
     "start": "parcel --dist-dir dist-dev",
     "build": "parcel build --dist-dir dist",
+    "rebuild": "npm run delete-build && npm run build",
     "delete": "del-cli --force ./dist ./dist-dev",
     "delete-build": "del-cli --force ./dist",
     "delete-dev": "del-cli --force ./dist-dev",
