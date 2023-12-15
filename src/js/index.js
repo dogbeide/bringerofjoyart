@@ -1,3 +1,6 @@
+let year = new Date().getFullYear(); 
+document.getElementById("year").textContent = year;
+
 const amazon = 'https://www.amazon.com/dp/1738227502';
 const music = 'https://linktr.ee/iamboyowa';
 const instagram = 'https://www.instagram.com/iamboyowa';
