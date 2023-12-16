@@ -11,12 +11,16 @@ window.delayOpen = function delayOpen(linkName, ms=500) {
     switch(linkName) {
       case 'amazon':
         window.open(amazon, "_blank");
+        return;
       case 'music':
         window.open(music, "_blank");
+        return;
       case 'instagram':
         window.open(instagram, "_blank");
+        return;
       case 'whatsapp':
         window.open(whatsapp, "_blank");
+        return;
       default:
         console.log('Error: window open link not defined')
         return;
