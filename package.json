@@ -100,7 +100,7 @@
     "weak-lru-cache": "^1.2.2",
     "yallist": "^4.0.0"
   },
-  "source": "index.html",
+  "source": ["index.html", "thanks.html"],
   "scripts": {
     "dev": "npm start",
     "start": "parcel --dist-dir dist-dev",
