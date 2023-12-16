@@ -253,6 +253,7 @@ main .my-container .grain {
   align-items: center;
   height: 100px;
   color: whitesmoke;
+  font-size: 14px;
   background-color: rgb(26, 0, 0);
 }
 .footer #year {

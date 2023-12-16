@@ -52,7 +52,6 @@ window.showMore = function showMore(num) {
   showMoreBtns[num - 1].style.display = "none";
   ellipsisArr[num - 1].style.display = "none";
   moreToShowQuery.eq(num - 1).fadeIn(700);
-  // moreToShowArr[num - 1].style.display = "inline";
 }
 
 window.showLess = function showLess() {
@@ -61,7 +60,6 @@ window.showLess = function showLess() {
   for (let i = 0; i < showMoreBtns.length; i++) {
     showMoreBtns[i].style.display = "block";
     ellipsisArr[i].style.display = "inline";
-    // moreToShowArr[i].style.display = "none";
   }
 }
 
@@ -71,8 +69,4 @@ window.handleSubmit = function handleSubmit(event) {
   const last = document.getElementById('last-name').value;
   const name = first + ' ' + last;
   document.getElementById('name-to-send').value = name;
-
-  const subject = document.getElementById('form-subject');
-  subject.value = "website #connect:  " + subject.value;
-  // event.preventDefault();
 }
