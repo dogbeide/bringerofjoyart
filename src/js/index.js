@@ -6,7 +6,7 @@ const music = 'https://linktr.ee/iamboyowa';
 const instagram = 'https://www.instagram.com/iamboyowa';
 const whatsapp = 'https://wa.me/14374324885';
 
-function delayOpen(linkName, ms=500) {
+window.delayOpen = function delayOpen(linkName, ms=500) {
   setTimeout(function () {
     switch(linkName) {
       case 'amazon':
@@ -28,7 +28,8 @@ const boyowa = $('.boyowa');
 const num = boyowa.length;
 
 let i = 0;
-function slideShow() {
+
+window.slideShow = function slideShow() {
   boyowa.eq(i%num).fadeOut(500);
   boyowa.eq((i+1)%num).fadeIn(500);
   // setTimeout(boyowa.eq((i+1)%3).fadeIn(500), 1000)
@@ -43,14 +44,14 @@ const showMoreBtns = whoami.getElementsByClassName("show-more");
 const ellipsisArr = whoami.getElementsByClassName("ellipsis");
 const moreToShowQuery = $(".more-to-show");
 
-function showMore(num) {
+window.showMore = function showMore(num) {
   showMoreBtns[num - 1].style.display = "none";
   ellipsisArr[num - 1].style.display = "none";
   moreToShowQuery.eq(num - 1).fadeIn(700);
   // moreToShowArr[num - 1].style.display = "inline";
 }
 
-function showLess() {
+window.showLess = function showLess() {
   moreToShowQuery.hide(1000);
   
   for (let i = 0; i < showMoreBtns.length; i++) {
@@ -60,7 +61,7 @@ function showLess() {
   }
 }
 
-function handleSubmit(event) {
+window.handleSubmit = function handleSubmit(event) {
   // event.preventDefault();
   const first = document.getElementById('first-name').value;
   const last = document.getElementById('last-name').value;
