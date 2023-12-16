@@ -69,4 +69,5 @@ window.handleSubmit = function handleSubmit(event) {
   const last = document.getElementById('last-name').value;
   const name = first + ' ' + last;
   document.getElementById('name-to-send').value = name;
+  document.getElementById("connect-form").reset();
 }
