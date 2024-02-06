@@ -144,8 +144,10 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 10px;
 
   .title {
+    z-index: 1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.4rem;
     .inf {
@@ -154,6 +156,7 @@ main {
   }
 
   .desc {
+    z-index: 1;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     padding-top: 10px;

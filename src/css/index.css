@@ -114,9 +114,11 @@ main .my-container .grain {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 10px;
   width: 100%;
 }
 #healing .title {
+  z-index: 1;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.4rem;
 }
@@ -124,6 +126,7 @@ main .my-container .grain {
   font-size: 1rem;
 }
 #healing .desc {
+  z-index: 1;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   padding-top: 10px;
