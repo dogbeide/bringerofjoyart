@@ -109,6 +109,32 @@ main .my-container .grain {
   vertical-align: middle;
 }
 
+#healing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#healing .title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4rem;
+}
+#healing .title .inf {
+  font-size: 1rem;
+}
+#healing .desc {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+#healing .desc .we-can-address {
+  color: #696969;
+}
+#healing .desc .anything-really {
+  color: #919191;
+}
+
 #whoami {
   display: flex;
   flex-direction: column;
