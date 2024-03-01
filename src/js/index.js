@@ -5,6 +5,7 @@ const amazon = 'https://www.amazon.com/dp/1738227502';
 const music = 'https://linktr.ee/iamboyowa';
 const instagram = 'https://www.instagram.com/iamboyowa';
 const whatsapp = 'https://wa.me/14374324885';
+const telegram = 'https://t.me/iamboyowa';
 
 window.delayOpen = function delayOpen(linkName, ms=500) {
   setTimeout(function () {
@@ -20,6 +21,9 @@ window.delayOpen = function delayOpen(linkName, ms=500) {
         return;
       case 'whatsapp':
         window.open(whatsapp, "_blank");
+        return;
+      case 'telegram':
+        window.open(telegram, "_blank");
         return;
       default:
         console.log('Error: window open link not defined')
