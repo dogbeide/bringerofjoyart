@@ -145,13 +145,14 @@ main {
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+  // background-image: url(../images/heart-nebula.jpg, 10%);
 
   .title {
     z-index: 1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     .inf {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
 
