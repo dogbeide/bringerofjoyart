@@ -137,6 +137,16 @@ main .my-container .grain {
 #healing .desc .anything-really {
   color: #919191;
 }
+#healing .photo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#healing .photo-container .photo {
+  height: 132px;
+  width: 132px;
+  border-radius: 50%;
+}
 
 #whoami {
   display: flex;
