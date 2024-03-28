@@ -2,7 +2,7 @@ let year = new Date().getFullYear();
 document.getElementById("year").textContent = year;
 
 const amazon = 'https://www.amazon.com/dp/1738227502';
-const music = 'https://linktr.ee/iamboyowa';
+const music = 'https://linktr.ee/iamboyowa_music';
 const instagram = 'https://www.instagram.com/iamboyowa';
 const whatsapp = 'https://wa.me/14374324885';
 const telegram = 'https://t.me/iamboyowa';
