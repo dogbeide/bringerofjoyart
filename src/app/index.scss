@@ -160,7 +160,7 @@ main {
     z-index: 1;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    padding-top: 10px;
+    // padding-top: 10px;
 
     .we-can-address {
       color: #696969;
@@ -174,10 +174,9 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 10px;
 
     .photo {
-      height: 132px;
-      width: 132ddpx;
       border-radius: 50%;
     }
   }
@@ -200,6 +199,7 @@ main {
   color:#d60000;
   font-family: Cabin Sketch;
   background: linear-gradient(90deg, rgba(255, 123, 0, 0.918) 20%, rgba(255, 123, 0, 0.25) 50%, rgba(255, 123, 0, 0.918) 80%);
+  width: 100%;
 
   .title {
     z-index: 1;
@@ -215,8 +215,9 @@ main {
     display: flex;
     flex-direction: row;
 
-    @media screen and (max-width: 840) {
+    @media only screen and (max-width: 840) {
       flex-direction: column;
+      align-items: center;
     }
 
     .music-video {
@@ -227,7 +228,7 @@ main {
         height: 315px;
       }
       
-      @media screen and (max-width: 600px) {
+      @media only screen and (max-width: 600px) {
         margin: 5px 5px 5px 5px;
 
         iframe {
@@ -239,9 +240,6 @@ main {
   
   }
 
-  
-  
-  
   .more {
     font-family: 'Courier New', Courier, monospace;
 

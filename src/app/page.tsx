@@ -1,113 +1,159 @@
+'use client';
+
 import Image from "next/image";
 
+import quantumHealing from '@/../public/images/quantum-healing_264x198.jpg';
+import boyowaPainted from '@/../public/images/boyowa_painted.jpg';
+import boyowaGuitarStand from '@/../public/images/boyowa_guitar-stand-stage_176x176.jpg';
+import boyowaFandango from '@/../public/images/boyowa_fandango.jpg';
+import boyowaPaintingPalace from '@/../public/images/boyowa_painting-palace-group_176x176.jpg';
+import boyowaDeepFreeze from '@/../public/images/boyowa_deep-freeze_132x176px.jpg'
+
+import Connect from './ui/connect'
+import VisualSlam from '@/app/ui/visual-slam'
+import Music from '@/app/ui/music'
+
+import './ui/book.scss'
+
 export default function Home() {
+  
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <VisualSlam />
+      <div id="healing" className="my-container anchor">
+        <div className="title">
+          <span className="inf">♾️</span> <a>QUANTUM HEALING</a>{" "}
+          <span className="inf">♾️</span>
+        </div>
+        <div className="photo-container">
+          <Image
+            className="photo"
+            src={quantumHealing}
+            height={132}
+            width={176}
+            alt="boyowa_self-portrait-painted"
+          />
+        </div>
+        <div className="desc">
+          <p>
+            <i>
+              Shifting the subconscious to heal yourself from within. <br />
+              <strong>
+                Your own Source connection already knows what to do, organically.
+              </strong>
+            </i>
+          </p>
+          <p>
+            <span className="we-can-address">
+              We can address inner wounds,
+              <br />
+              We can address psychological problems, <br />
+              We can address patterns in your life, <br />
+              We can address physical issues. <br />
+            </span>
+            <span className="anything-really">
+              (anything really... get creative, Lol!)
+            </span>
+          </p>
+          <p>Whatever is ready 💚</p>
+          <p>
+            <a
+              href="https://www.linktr.ee/iamboyowa_healing"
+              className="text-shadow"
+              target="_blank"
+            >
+              ~ Heal Yourself ~
+            </a>
+          </p>
         </div>
       </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <Music />
+
+      <div id="whoami" className="my-container anchor">
+        <div className="slideshow">
+          <Image
+            className="boyowa"
+            src={boyowaPainted}
+            alt="boyowa_self-portrait-painted"
+            fill
+          />
+          <Image
+            className="boyowa hidden"
+            src={boyowaGuitarStand}
+            alt="boyowa_standing-on-stage-guitar"
+            fill
+          />
+          <Image
+            className="boyowa hidden"
+            src={boyowaPaintingPalace}
+            alt="boyowa_painting-palace-group_176x176"
+            fill
+          />
+          <Image
+            className="boyowa hidden"
+            src={boyowaFandango}
+            alt="boyowa_at-fandango"
+            fill
+          />
+          <Image
+            className="boyowa hidden"
+            src={boyowaDeepFreeze}
+            alt="boyowa_deep-freeze-festival"
+            fill
+          />
+        </div>
+        <span className="text-break">~</span>
+        <div className="desc">
+          Boyowa means 'Bringer of Joy' in the Itsekiri language of Nigeria. 🌍
+          <br />
+          He was born in the UK👨🏿‍🏭, raised in Canada🍁, and has been a nomad his
+          whole life.
+          <br />
+          <br />
+          He started writing poetry📖, comics😆, art🎨, and music🎵 from a little
+          boy, and discovered music production🎧 in his early teens. Since then,
+          he has been exploring a variety of genres and art-styles such as
+          <span className="ellipsis">...</span>
+          <span className="show-more" onClick={() => console.log("showMore(1)")}>
+            (show more)
+          </span>
+          <span className="more-to-show">
+            singing🎤, songwriting🎼, freestyle rapping🔥, and both visual and
+            media🎭 art design.
+            <br />
+            <br />
+            Healing💚 has been a huge component of his life and has been the main
+            focus ever since he started meditating🙏🏿 at age 22. <br />
+            He is very well experienced with breathwork😮‍💨 practices,
+            transformational psychology🪢, and is a certified Reiki Master☯️
+            practitioner with years under his belt. <br />
+            <br />
+            He has explored Shamanism🧙🏿, has been on an integrative journey with
+            nature🌳 to realizing this, and is highly experienced with various
+            forms of<span className="ellipsis">...</span>
+            <span className="show-more" onClick={() => console.log("showMore(2)")}>
+              (show more)
+            </span>
+          </span>
+          <span className="more-to-show">
+            subconscious integration with the zero point field♾️, sound healing🌀,
+            and quantum energy work🧬, all using his hands and voice.
+            <br />
+            <br />
+            Boyowa loves to laugh, live, and joke around.😎 Life is fun! Life is
+            candid, life is a joke (above all, lol!). <br />
+            Joy is his fuel, Love is his sustenance, and connection to Source is
+            at the heart of all creation. 😊
+            <span className="show-less" onClick={() => console.log("showLess()")}>
+              (show less)
+            </span>
+          </span>
+          <span className="text-break">~</span>
+        </div>
+        <div className="grain" />
       </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <Connect />
+    </>
   );
 }
