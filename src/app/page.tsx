@@ -1,5 +1,3 @@
-'use client';
-
 import Image from "next/image";
 
 import quantumHealing from '@/../public/images/quantum-healing_264x198.jpg';
