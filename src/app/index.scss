@@ -213,12 +213,12 @@ main {
 
   .music-video-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
-    @media only screen and (max-width: 840) {
-      flex-direction: column;
-      align-items: center;
-    }
+    // @media only screen and (max-width: 840) {
+    //   flex-direction: column;
+    //   align-items: center;
+    // }
 
     .music-video {
       margin: 20px 5px 10px 5px;
@@ -252,6 +252,15 @@ main {
   
 }
 
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+.fadeOut {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
 #whoami {
   display: flex;
   flex-direction: column;
@@ -281,6 +290,7 @@ main {
       height: 176px;
       width: auto;
       border-radius: 50%;
+      overflow: hidden;
     }
   }
 
@@ -312,7 +322,8 @@ main {
     font-size: 15;
   }
   .more-to-show {
-    display: none;
+    // display: none;
+    // transition: display 2s linear;
   }
 
   .text-break {

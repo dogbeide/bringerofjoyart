@@ -20,7 +20,8 @@ export default function VisualSlam() {
               <Image
                 src={frontCover}
                 alt="visual-slam-artpoetrybook_img"
-                fill
+                width={300}
+                height={375}
               />
             </div>
           </div>
