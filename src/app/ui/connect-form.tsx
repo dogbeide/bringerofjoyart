@@ -28,8 +28,6 @@ export default function ConnectForm() {
 
   const formSubmitUrl = "https://formsubmit.co/a64a9eb18d086f36155be016a17e0bf6";
 
-  console.log('formData', formData);
-
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
