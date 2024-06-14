@@ -3,6 +3,7 @@
 import { FormEvent, useState } from "react"
 import { encode } from '../lib/utils'
 import { useRef } from "react";
+import LoadingSpinner from "./loading-spinner";
 
 
 export default function ConnectForm() {
@@ -23,8 +24,12 @@ export default function ConnectForm() {
     message: ''
   }
 
+  
+
   const ref = useRef<HTMLFormElement>(null)
   const [formData, setFormData] = useState<ConnectFormData>(initialFormData);
+  const [isSending, setIsSending] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   const formSubmitUrl = "https://formsubmit.co/a64a9eb18d086f36155be016a17e0bf6";
 
@@ -36,6 +41,8 @@ export default function ConnectForm() {
 
     // console.log('asdf', formData)
 
+    setIsSending(true);
+
     fetch(formSubmitUrl, {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -44,8 +51,14 @@ export default function ConnectForm() {
       .then(() => {
         console.log("success");
         setFormData(initialFormData);
+        setIsSending(false); // sent
+        setIsError(false); // no error
       })
-      .catch((err) => console.log(err))
+      .catch((err) => {
+        console.log(err);
+        setIsSending(false); // stopped sending
+        setIsError(true); // soemthing's wrong
+      })
   }
 
   const handleInput = (event: FormEvent<HTMLInputElement>) => {
@@ -140,7 +153,7 @@ export default function ConnectForm() {
         defaultValue="https://www.iamboyowa.art/thanks"
       />
       <button className="form-input" type="submit" form="connect-form">
-        Send
+        {isSending ? <LoadingSpinner/> : 'Send'}
       </button>
     </form>
   );
