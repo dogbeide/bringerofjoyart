@@ -68,6 +68,13 @@ nav {
     align-items: center;
     width: 80%;
   }
+
+  .my-dropdown {
+    display: flex;
+    flex-direction: column;
+    right: 0%;
+    top: 80%;
+  }
 }
 
 main {
