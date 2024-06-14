@@ -24,7 +24,11 @@ export default function VisualSlam() {
                 height={375}
               />
             </div>
+            <div className="click-to-open">
+              <span className="text">(Click to Open)</span>
+            </div>
           </div>
+
         </DelayOpenButton>
           
         <div className="desc">
