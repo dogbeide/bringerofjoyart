@@ -16,7 +16,7 @@ export default function WhoAmI() {
       <FadeShow />
       <span className="text-break">~</span>
       <div className="desc">
-        Boyowa means 'Bringer of Joy' in the Itsekiri language of Nigeria. 🌍
+        Boyowa means &apos;Bringer of Joy&apos; in the Itsekiri language of Nigeria. 🌍
         <br />
         He was born in the UK👨🏿‍🏭, raised in Canada🍁, and has been a nomad his
         whole life.

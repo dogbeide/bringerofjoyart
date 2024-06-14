@@ -19,14 +19,10 @@ export default function FadeShow({ imgs =  IMGS_WHOAMI }) {
   })
 
   useEffect(() => {
-    
-  }, [])
-
-  useEffect(() => {
     setTimeout(() => {
       setSlideNumber((prevSlideNumber: number) => ((prevSlideNumber + 1) % imgs.length));
     }, 3000)
-  }, [slideNumber])
+  }, [slideNumber, imgs.length])
 
   return(
     <div className="slideshow">

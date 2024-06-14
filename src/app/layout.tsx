@@ -3,7 +3,6 @@ import Head from "next/head";
 
 import Nav from './ui/nav'
 import Footer from './ui/footer'
-// import InstallBootstrap from './lib/install-bootstrap';
 import "./index.scss";
 import "./ui/sun.scss";
 import './globals.css';

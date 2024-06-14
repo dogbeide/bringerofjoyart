@@ -17,7 +17,7 @@ export default function Music() {
         (More Music) -&gt;{" "}
         <a
           className="link-discography"
-          href="https://www.linktr.ee/iamboyowa"
+          href="https://www.linktr.ee/iamboyowa_music"
           target="_blank"
           rel="noopener noreferrer"
         >

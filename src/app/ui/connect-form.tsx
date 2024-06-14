@@ -23,7 +23,7 @@ export default function ConnectForm() {
     message: ''
   }
 
-  const ref = useRef<HTMLFormElement>()
+  const ref = useRef<HTMLFormElement>(null)
   const [formData, setFormData] = useState<ConnectFormData>(initialFormData);
 
   const formSubmitUrl = "https://formsubmit.co/a64a9eb18d086f36155be016a17e0bf6";
@@ -34,7 +34,7 @@ export default function ConnectForm() {
     const flname = `${formData.fname} ${formData.lname}`
     const { _subject, email, message } = formData;
 
-    console.log('asdf', formData)
+    // console.log('asdf', formData)
 
     fetch(formSubmitUrl, {
       method: "POST",
@@ -44,7 +44,6 @@ export default function ConnectForm() {
       .then(() => {
         console.log("success");
         setFormData(initialFormData);
-        ref.current?.reset();
       })
       .catch((err) => console.log(err))
   }
@@ -79,6 +78,7 @@ export default function ConnectForm() {
           className="first form-input"
           type="text"
           placeholder="First Name"
+          value={formData.fname}
           onChange={handleInput}
           required
         />
@@ -88,6 +88,7 @@ export default function ConnectForm() {
           className="last form-input"
           type="text"
           placeholder="Last Name"
+          value={formData.lname}
           onChange={handleInput}
           required
         />
@@ -96,6 +97,7 @@ export default function ConnectForm() {
           id="name-to-send"
           className="last form-input"
           name="flname"
+          value={`${formData.fname} ${formData.lname}`}
           placeholder="First and Last Name"
           required
         />
@@ -106,6 +108,7 @@ export default function ConnectForm() {
         type="text"
         name="_subject"
         placeholder="Subject"
+        value={formData._subject}
         onChange={handleInput}
         required
       />
@@ -115,6 +118,7 @@ export default function ConnectForm() {
         name="email"
         id=""
         placeholder="Email"
+        value={formData.email}
         onChange={handleInput}
         required
       />
@@ -126,6 +130,7 @@ export default function ConnectForm() {
         rows={10}
         placeholder="What's up?"
         required
+        value={formData.message}
         defaultValue={""}
         onChange={handleTextInput}
       />
