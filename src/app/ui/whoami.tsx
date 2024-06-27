@@ -3,9 +3,11 @@
 import { useState } from "react";
 import FadeShow from "./fadeshow";
 
-type WhoAmIRole = 'overall' | 'healer' | 'musician';
+type WhoAmIRole = {
+  role?: 'overall' | 'healer' | 'musician'
+};
 
-export default function WhoAmI({ role='overall' } : {role: WhoAmIRole }) {
+export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
 
   const [expanded, setExpanded] = useState(0);
 
