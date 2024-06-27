@@ -95,12 +95,12 @@ export default function Healing({ preview = false}) {
           Every session is unique ❄️
         </p>
         <p className="we-can-address">
-          I will sing, tone, bring forth 'light language', and issue voice commands.<br />
+          I will sing, tone, bring forth &apos;light language&apos;, and issue voice commands.<br />
           You sit/lay back & relax 😊
         </p>
         <p className="we-can-address">
           <i>I ONLY work with forces of the highest light aligned fully<br />
-          to the 'Law of One' and all Natural Laws of Creation.</i><br />
+          to the &apos;Law of One&apos; and all Natural Laws of Creation.</i><br />
           ✅
         </p>
 
@@ -124,7 +124,7 @@ export default function Healing({ preview = false}) {
             <strong>Integration:</strong>
             <p></p>
             <ul>
-              <li className="we-can-address">Takes time to fully 'lock-in' to physical</li>
+              <li className="we-can-address">Takes time to fully &apos;lock-in&apos; to physical</li>
               <li className="we-can-address">Usually 3 days for first 90%</li>
               <li className="we-can-address">Drink water, rest, LISTEN to your body!</li>
               <li className="we-can-address">Surrender... :)</li>
