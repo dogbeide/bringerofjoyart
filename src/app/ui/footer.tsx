@@ -13,7 +13,7 @@ export default async function Footer() {
         style={{ marginRight: 5 }}
         alt="IAMBOYOWA Logo"
       />
-      Copyright © <span id="year">{year}</span> iamboyowa
+      Copyright © <span id="year">{year} </span>iamboyowa
     </footer>
   )
 }
