@@ -3,6 +3,8 @@ import frontCover from '@/../public/images/(just front cover) VISUAL-SLAM_300x37
 
 import DelayOpenButton from './delay-open-btn';
 
+import '@/app/ui/book.scss'
+
 export default function VisualSlam() {
 
   return (

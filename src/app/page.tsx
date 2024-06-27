@@ -4,8 +4,6 @@ import Music from '@/app/ui/music'
 import WhoAmI from '@/app/ui/whoami'
 import Healing from "./ui/healing";
 
-import './ui/book.scss'
-
 export default function Home() {
   
   return (
