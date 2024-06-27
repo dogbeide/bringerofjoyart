@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <VisualSlam />
       
-      <Healing />
+      <Healing preview={true} />
 
       <Music />
 
