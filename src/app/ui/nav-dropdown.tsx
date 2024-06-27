@@ -36,7 +36,7 @@ export default function NavDropdown() {
         <a className="dropdown-item_my text-shadow" href="/#connect">
           CONNECT
         </a>
-        <a className="dropdown-item_my text-shadow" href="/#healing">
+        <a className="dropdown-item_my text-shadow" href="/healing">
           HEALING
         </a>
         <div className="dropdown-divider" />

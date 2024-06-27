@@ -30,7 +30,7 @@ export default function Nav() {
           </a>
         </div>
         <div>
-          <a href="/#healing" className="text-shadow">
+          <a href="/healing" className="text-shadow">
             HEALING
           </a>
         </div>
