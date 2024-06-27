@@ -27,20 +27,20 @@ export default function NavDropdown() {
       {showDropdown && <div
         className="dropdown-menu dropdown-menu-right my-dropdown"
       >
-        <a className="dropdown-item_my text-shadow" href="#visual-slam">
+        <a className="dropdown-item_my text-shadow" href="/#visual-slam">
           VISUAL
         </a>
-        <a className="dropdown-item_my text-shadow" href="#whoami">
+        <a className="dropdown-item_my text-shadow" href="/#whoami">
           WHOAMI
         </a>
-        <a className="dropdown-item_my text-shadow" href="#connect">
+        <a className="dropdown-item_my text-shadow" href="/#connect">
           CONNECT
         </a>
-        <a className="dropdown-item_my text-shadow" href="#healing">
+        <a className="dropdown-item_my text-shadow" href="/#healing">
           HEALING
         </a>
         <div className="dropdown-divider" />
-        <a className="dropdown-item_my text-shadow" href="#music">
+        <a className="dropdown-item_my text-shadow" href="/#music">
           MUSIC
         </a>
       </div>}
