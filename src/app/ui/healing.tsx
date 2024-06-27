@@ -47,7 +47,7 @@ export default function Healing() {
             className="text-shadow"
             target="_blank"
           >
-            ~ Heal Yourself ~
+            <button className="btn-cta">~ Heal Yourself ~</button>
           </a>
         </p>
       </div>
