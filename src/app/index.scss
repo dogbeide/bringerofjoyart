@@ -53,6 +53,12 @@ a {
   }
 }
 
+.p-column-mobile {
+  display: 'inline-block';
+  text-align: "left";
+  max-width: '320px';
+}
+
 nav {
   position: sticky !important;
   top: 0;

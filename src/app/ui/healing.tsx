@@ -1,6 +1,7 @@
 import Image from "next/image"
 import ButtonCTA from "@/app/ui/button-cta";
 import quantumHealing from '@/../public/images/quantum-healing_264x198.jpg';
+import WhoAmI from "./whoami";
 
 export default function Healing({ preview = false}) {
 
@@ -106,9 +107,9 @@ export default function Healing({ preview = false}) {
         <hr />
 
         <div style={{justifyContent: 'center'}}>
-          <p style={{display: 'inline-block', textAlign: "left", maxWidth: '320px'}}>
+          <div style={{display: 'inline-block', textAlign: "left", width: '320px'}}>
             <strong>Session Structure:</strong>
-            <p></p>
+            <p> </p>
             <ol>
               <li style={{ color: 'red'}}>Heart Opening</li>
               <li style={{ color: 'orange'}}>Calling In</li>
@@ -128,7 +129,7 @@ export default function Healing({ preview = false}) {
               <li className="we-can-address">Drink water, rest, LISTEN to your body!</li>
               <li className="we-can-address">Surrender... :)</li>
             </ul>
-          </p>
+          </div>
 
           <p>
             <ButtonCTA 
@@ -141,6 +142,38 @@ export default function Healing({ preview = false}) {
 
           <p><i>Look forward to seeing you!~</i></p>
           
+        </div>
+
+        <br />
+        <hr />
+
+        <div>
+          <p><strong>Who Is This For?</strong></p>
+          <div style={{display: 'inline-block', textAlign: "center", width: '320px'}}>
+
+            <p className="we-can-address">Those who feel called,</p>
+            <p className="we-can-address">Those who are ready,</p>
+            <p className="we-can-address">Those who are willing,</p>
+            <p className="we-can-address">Those who are curious,</p>
+            <p className="we-can-address">Those who want to heal...</p>
+
+          </div>
+        </div>
+
+        <hr />
+
+        <div>
+          <p><strong>Who Is The Practitioner?</strong></p>
+          <WhoAmI role='healer' />
+        </div>
+
+        <div style={{ margin: '23px 0' }}>
+          <ButtonCTA 
+            href={preview ? "/healing" : "https://www.linktr.ee/iamboyowa_healing"}
+            target={preview ? "_self" : "_blank"}
+          >
+            ~ Book Session ~
+          </ButtonCTA>
         </div>
 
       </div>}
