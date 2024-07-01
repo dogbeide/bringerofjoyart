@@ -60,7 +60,7 @@ export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
           <br />
           <br />
 
-          He has been fully initiated into Shamanism🧙🏿, <br />
+          He has been fully primed into Shamanism🧙🏿, <br />
           has been on an integrative journey with nature🌳, <br />
           and is highly experienced with: 
 
@@ -128,7 +128,7 @@ export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
           <br />
           <br />
 
-          He has been fully initiated into Shamanism🧙🏿, <br />
+          He has been fully primed into Shamanism🧙🏿, <br />
           has been on an integrative journey with nature🌳, <br />
           and is highly experienced with: 
           
