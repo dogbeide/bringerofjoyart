@@ -60,7 +60,7 @@ export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
           <br />
           <br />
 
-          He has been fully primed into Shamanism🧙🏿, <br />
+          He has been fully initiated into Shamanism🧙🏿, <br />
           has been on an integrative journey with nature🌳, <br />
           and is highly experienced with: 
 
@@ -84,9 +84,9 @@ export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
           <br />
           <br />
 
-          He is very well experienced with breathwork😮‍💨 practices,
-          transformational psychology🪢, and is a certified Reiki Master☯️
-          practitioner with years under his belt. 
+          He is a certified Reiki Master☯️ practitioner with years under his belt 
+          and is very well experienced with transformational psychology🪢 
+          and breathwork😮‍💨. 
 
           <br />
           <br />
@@ -128,7 +128,7 @@ export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
           <br />
           <br />
 
-          He has been fully primed into Shamanism🧙🏿, <br />
+          He has been fully initiated into Shamanism🧙🏿, <br />
           has been on an integrative journey with nature🌳, <br />
           and is highly experienced with: 
           
@@ -148,9 +148,9 @@ export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
           {expanded >= 1 && <span className="more-to-show">
             <br />
             <br />
-            He is very well experienced with breathwork😮‍💨 practices,
-            transformational psychology🪢, and is a certified Reiki Master☯️
-            practitioner with years under his belt. 
+            He is a certified Reiki Master☯️ practitioner with years under his belt 
+            and is very well experienced with transformational psychology🪢 
+            and breathwork😮‍💨.  
           </span>}
 
           {expanded >= 2 && <span className="more-to-show">

@@ -6,11 +6,12 @@ export default function Music() {
       <div className="title">~MUSIC~</div>
       <div className="desc">Ayyyyy!...🎶🤪</div>
       <div className="music-video-container">
+      
         <div className="music-video">
-          <iframe src="https://www.youtube.com/embed/Y6NO2hSLje0"></iframe>
+          <iframe src="https://www.youtube.com/embed/30IP08dEE_A"></iframe>
         </div>
         <div className="music-video">
-          <iframe src="https://www.youtube.com/embed/vQwDv7nq0z8"></iframe>
+          <iframe src="https://www.youtube.com/embed/Y6NO2hSLje0"></iframe>
         </div>
       </div>
       <div className="more">
