@@ -8,6 +8,13 @@ import Social from './components/Social';
 
 import './web-dev.css'
 
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: "iamboyowa ~ART 🎭 | HEALING 💚 | MAGIC 🧙🏿‍♂️~",
+  description: "Web Development & Software Engineering",
+}
+
 export default function Page() {
   return (
     <div id="web-dev">
