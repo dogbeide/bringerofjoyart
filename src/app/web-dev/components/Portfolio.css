@@ -1,0 +1,44 @@
+
+
+body {
+  background-image: url("/images/pattern-green.png");
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.items {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer {
+  background: rgba(41, 52, 71, 0.75);
+  border-radius: 10px;
+  margin-top: 1em;
+  padding: 1.5em;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  a img {
+      width: 250px;
+      height: 200px;
+  }
+}

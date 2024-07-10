@@ -39,6 +39,11 @@ export default function Nav() {
             MUSIC
           </a>
         </div>
+        <div>
+          <a href="/web-dev" className="text-shadow">
+            WEB-DEV
+          </a>
+        </div>
       </div>
       <NavDropdown />
     </nav>
