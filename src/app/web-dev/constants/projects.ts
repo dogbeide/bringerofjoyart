@@ -1,5 +1,21 @@
 const projects = [
     {
+        id: -5,
+        url: "https://www.pandoras-awakening.vercel.app/",
+        img: '/images/pandoras-awakening.png',
+        alt: "pandoras-awakening-combined-site",
+        title: "www.pandorasawakening.com",
+        desc: "A professional site that combines 3 original sites. For a Holistic Sex Therapist who specializes \
+                in helping others to reclaim their healthy sexuality, creativity, and to form long-lasting, fulfilling relationships. \
+                ",
+        techs: [
+            'NextJS',
+            'TypeScript',
+            'CSS3',
+            'HTML5',
+        ],
+    },
+    {
         id: -4,
         url: "https://www.iamboyowa.art/",
         img: '/images/iamboyowa-art-site.png',
