@@ -35,7 +35,7 @@ export default function Nav() {
           </a>
         </div>
         <div>
-          <a href="/#music" className="text-shadow">
+          <a href="https://www.linktr.ee/iamboyowa_music" className="text-shadow">
             MUSIC
           </a>
         </div>
