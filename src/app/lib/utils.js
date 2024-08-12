@@ -5,7 +5,7 @@ const amazon = 'https://www.amazon.com/dp/1738227502';
 const music = 'https://linktr.ee/iamboyowa_music';
 const linktree_all = 'https://linktr.ee/iamboyowa';
 const instagram = 'https://www.instagram.com/iamboyowa';
-const whatsapp = 'https://wa.me/14374324885';
+const whatsapp = 'https://wa.me/14378782696';
 const telegram = 'https://t.me/iamboyowa';
 
 export const delayOpen = function delayOpen(linkName, ms=500) {

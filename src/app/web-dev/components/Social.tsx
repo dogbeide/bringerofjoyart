@@ -16,7 +16,7 @@ const Social = () => {
                 ></FontAwesomeIcon>
             </a>
             <a className="social-icon"
-                href="https://wa.me/14374324885"
+                href="https://wa.me/14378782696"
                 target="_blank"
             >
                 <FontAwesomeIcon icon={faWhatsapp}
