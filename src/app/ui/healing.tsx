@@ -99,8 +99,7 @@ export default function Healing({ preview = false}) {
           You sit/lay back & relax 😊
         </p>
         <p className="we-can-address">
-          <i>I ONLY work with forces of the highest light aligned fully<br />
-          to the &apos;Law of One&apos; and all Natural Laws of Creation.</i><br />
+          <i>I ONLY work with Natural Laws of Creation.</i><br />
           ✅
         </p>
 
@@ -111,11 +110,11 @@ export default function Healing({ preview = false}) {
             <strong>Session Structure:</strong>
             <p> </p>
             <ol>
-              <li style={{ color: 'red'}}>Heart Opening</li>
+              <li style={{ color: 'red'}}>Heart Meditation</li>
               <li style={{ color: 'orange'}}>Calling In</li>
-              <li style={{ color: '#FFC300'}}>Setup/Opening</li>
+              <li style={{ color: '#FFC300'}}>Setup/Open Session</li>
               <li style={{ color: 'green'}}>Healing & Clearing</li>
-              <li style={{ color: 'blue'}}>Organic Reset</li>
+              <li style={{ color: 'blue'}}>Organic Restart</li>
               <li style={{ color: 'violet'}}>Finalize and Closing</li>
             </ol>
 
