@@ -216,6 +216,10 @@ main {
   width: 100%;
 }
 
+#testimonials {
+  
+}
+
 #music {
   display: flex;
   flex-direction: column;
@@ -338,6 +342,7 @@ main {
     font-family: Cabin Sketch;
     // font-weight: 700;
     z-index: 1;
+    text-align: left;
   }
 
   .show-more {
@@ -533,6 +538,12 @@ main {
       .desc {
         margin-top: 15px;
       }
+    }
+  }
+
+  #healing {
+    .title {
+      font-size: 1.2rem;
     }
   }
   

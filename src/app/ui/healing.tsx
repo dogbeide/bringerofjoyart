@@ -8,7 +8,7 @@ export default function Healing({ preview = false}) {
   return (
     <div id="healing" className="my-container anchor">
       <div className="title">
-        <span className="inf">♾️</span> <a>QUANTUM HEALING</a>{" "}
+        <span className="inf">♾️</span> <a>QUANTUM/SHAMANIC HEALING</a>{" "}
         <span className="inf">♾️</span>
       </div>
       <div className="photo-container">
@@ -21,7 +21,7 @@ export default function Healing({ preview = false}) {
         />
       </div>
       {preview?
-      <div className="desc">
+      <div className="desc mt-2 px-1">
         <p>
           <i>
             Shifting the subconscious to heal yourself from within. <br />
@@ -53,7 +53,7 @@ export default function Healing({ preview = false}) {
         </p>
       </div>
       :
-      <div className="desc">
+      <div className="desc mt-2 px-1">
         <p>
           <i>
             Shifting the subconscious to heal yourself from within. <br />
@@ -63,8 +63,11 @@ export default function Healing({ preview = false}) {
           </i>
         </p>
         <p>
+          {/* <span className="we-can-address">
+            We can address whatever is ready 💚
+          </span> */}
           <span className="we-can-address">
-            We can address inner wounds,
+            We can address inner wounds, 
             <br />
             We can address psychological problems, <br />
             We can address patterns in your life, <br />
@@ -88,8 +91,8 @@ export default function Healing({ preview = false}) {
         <hr /> {/*---------------------------------------------------------------------*/}
 
         <p className="we-can-address">
-          Every session will have a definite structure for maximum safety, <br />
-          with room to explore organically within our quantum space.
+          Every session will be structured for maximum safety, <br />
+          with room to explore organically within our love-held space.
         </p>
         <p>
           Every session is unique ❄️
@@ -110,11 +113,11 @@ export default function Healing({ preview = false}) {
             <strong>Session Structure:</strong>
             <p> </p>
             <ol>
-              <li style={{ color: 'red'}}>Heart Meditation</li>
-              <li style={{ color: 'orange'}}>Calling In</li>
+              <li style={{ color: 'red'}}>Share What&apos;s Up?</li>
+              <li style={{ color: 'orange'}}>Heart Meditation</li>
               <li style={{ color: '#FFC300'}}>Setup/Open Session</li>
               <li style={{ color: 'green'}}>Healing & Clearing</li>
-              <li style={{ color: 'blue'}}>Organic Restart</li>
+              <li style={{ color: 'blue'}}>Restart Organic</li>
               <li style={{ color: 'violet'}}>Finalize and Closing</li>
             </ol>
 

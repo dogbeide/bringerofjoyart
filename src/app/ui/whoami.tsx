@@ -60,19 +60,24 @@ export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
           <br />
           <br />
 
-          He has been fully initiated into Shamanism🧙🏿, <br />
+          He has been initiated into Shamanism🧙🏿, <br />
           has been on an integrative journey with nature🌳, <br />
           and is highly experienced with: 
 
           <br />
           <br />
 
-          - Subconscious Integration🔮,<br />
+          - Sound Healing🌀,<br />
+          - Quantum Energy Work🧬,<br />
+          - Zero Point Field♾️, <br />
+          - Intuitive Reflexology⚡, <br />
+          - Subconscious Integration🔮,
+
+          {/* - Subconscious Integration🔮,<br />
           - the Zero Point field♾️, <br />
           - Sound Healing🌀,<br />
-          - Quantum Energy Work🧬, 
-        
-          
+          - Quantum Energy Work🧬,  */}
+
           <span className="ellipsis">...</span>
         </span>}
         {expanded >= 2 && <span className="more-to-show">
@@ -128,19 +133,24 @@ export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
           <br />
           <br />
 
-          He has been fully initiated into Shamanism🧙🏿, <br />
+          He has been initiated into Shamanism🧙🏿, <br />
           has been on an integrative journey with nature🌳, <br />
           and is highly experienced with: 
           
           <br />
           <br />
 
+          - Sound Healing🌀,<br />
+          - Quantum Energy Work🧬,<br />
+          - Zero Point Field♾️, <br />
+          - Intuitive Reflexology⚡, <br />
           - Subconscious Integration🔮, <br />
+          
+          {/* - Subconscious Integration🔮,<br />
           - the Zero Point field♾️, <br />
           - Sound Healing🌀,<br />
-          - Quantum Energy Work🧬, 
-          
-          <br />
+          - Quantum Energy Work🧬,  */}
+
           <br />
           
           all using his hands and voice.
