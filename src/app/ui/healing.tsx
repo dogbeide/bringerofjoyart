@@ -4,6 +4,7 @@ import quantumHealing from '@/../public/images/quantum-healing_264x198.jpg';
 import WhoAmI from "./whoami";
 
 export default function Healing({ preview = false}) {
+  const linktreeHealing = 'https://linktr.ee/bringerofjoyhealing'
 
   return (
     <div id="healing" className="my-container anchor">
@@ -45,7 +46,7 @@ export default function Healing({ preview = false}) {
         <p>Whatever is ready 💚</p>
         <p>
           <ButtonCTA 
-            href={preview ? "/healing" : "https://www.linktr.ee/iamboyowa_healing"}
+            href={preview ? "/healing" : linktreeHealing}
             target={preview ? "_self" : "_blank"}
           >
             {preview? "See More..." : "~ Heal Yourself ~"}
@@ -81,7 +82,7 @@ export default function Healing({ preview = false}) {
 
         <p>
           <ButtonCTA 
-            href={preview ? "/healing" : "https://www.linktr.ee/iamboyowa_healing"}
+            href={preview ? "/healing" : linktreeHealing}
             target={preview ? "_self" : "_blank"}
           >
             {preview? "See More..." : "~ Heal Yourself ~"}
@@ -135,7 +136,7 @@ export default function Healing({ preview = false}) {
 
           <p>
             <ButtonCTA 
-              href={preview ? "/healing" : "https://www.linktr.ee/iamboyowa_healing"}
+              href={preview ? "/healing" : linktreeHealing}
               target={preview ? "_self" : "_blank"}
             >
               ~ Book Session ~
@@ -171,7 +172,7 @@ export default function Healing({ preview = false}) {
 
         <div style={{ margin: '23px 0' }}>
           <ButtonCTA 
-            href={preview ? "/healing" : "https://www.linktr.ee/iamboyowa_healing"}
+            href={preview ? "/healing" : linktreeHealing}
             target={preview ? "_self" : "_blank"}
           >
             ~ Book Session ~
