@@ -144,7 +144,7 @@ export default function ConnectForm() {
         placeholder="What's up?"
         required
         value={formData.message}
-        defaultValue={""}
+        // defaultValue={""}
         onChange={handleTextInput}
       />
       <input
