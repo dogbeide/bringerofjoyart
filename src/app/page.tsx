@@ -2,7 +2,7 @@ import Connect from './ui/connect'
 import VisualSlam from '@/app/ui/visual-slam'
 import Music from '@/app/ui/music'
 import WhoAmI from '@/app/ui/whoami'
-import Healing from "./ui/healing";
+import HealingPreview from './ui/healing-preview';
 
 export default function Home() {
   
@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <VisualSlam />
       
-      <Healing preview={true} />
+      <HealingPreview />
 
       <Music />
 
