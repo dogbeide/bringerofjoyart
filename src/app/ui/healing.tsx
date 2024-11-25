@@ -42,7 +42,7 @@ const QuantumShamanicHealing = () => {
   return (
     <>
       <div className="title">
-        <span className="inf">♾️</span> <a>QUANTUM/SHAMANIC HEALING</a>{" "}
+        <span className="inf">♾️</span> <a>SHAMANIC/MULTIDIMENSIONAL HEALING</a>{" "}
         <span className="inf">♾️</span>
       </div>
       <div className="photo-container">
@@ -59,7 +59,7 @@ const QuantumShamanicHealing = () => {
         <div className="mt-2 px-1">
           <p>
             <i>
-              Shifting the subconscious and metaphysical to heal yourself from within. <br />
+              Shifting the metaphysical and subconscious layers to heal yourself from within.<br />
               <strong>
                 Your own Source connection already knows what to do, organically.
               </strong>
