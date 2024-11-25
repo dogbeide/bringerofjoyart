@@ -3,6 +3,7 @@ import ButtonCTA from "@/app/ui/button-cta";
 import quantumHealing from '@/../public/images/quantum-healing_264x198.jpg';
 import WhoAmI from "./whoami";
 import Script from "next/script";
+import Testimonials from "./testimonials";
 
 export default function Healing() {
   const linktreeHealing = 'https://linktr.ee/bringerofjoyhealing'
@@ -16,8 +17,14 @@ export default function Healing() {
 
       <hr />
 
+      <Testimonials />
+
+      <div className="title mb-4">
+        <span className="inf">♾️</span> <a>WHO IS THE PRACTITIONER?</a>{" "}
+        <span className="inf">♾️</span>
+      </div>
       <div className="desc">
-        <p><strong>Who Is The Practitioner?</strong></p>
+        {/* <p><strong>Who Is The Practitioner?</strong></p> */}
         <WhoAmI role='healer' />
       </div>
 
