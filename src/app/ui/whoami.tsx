@@ -17,6 +17,7 @@ export default function WhoAmI({ role='overall' } : WhoAmIRole ) {
 
   return (
     <div id="whoami" className="my-container anchor">
+      <span className="desc font-bold mb-3">Boyowa David Ogbeide</span>
       <FadeShow />
       <span className="text-break">~</span>
       <div className="desc" style={{ display: role == 'overall' ? 'block' : 'none'}}> 
