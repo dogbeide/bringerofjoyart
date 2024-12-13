@@ -8,7 +8,7 @@ import "./ui/sun.scss";
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: "iamboyowa ~ART 🎭 | HEALING 💚 | MAGIC 🧙🏿‍♂️~",
+  title: "Bringer Of Joy ~ART 🎭 | HEALING 💚 | MAGIC 🧙🏿‍♂️~",
   description: "~ART 🎭 | HEALING 💚 | MAGIC 🧙🏿‍♂️~",
 };
 

@@ -11,7 +11,7 @@ import './web-dev.css'
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
-  title: "iamboyowa ~ART 🎭 | HEALING 💚 | MAGIC 🧙🏿‍♂️~",
+  title: "Bringer of Joy ~ART 🎭 | HEALING 💚 | MAGIC 🧙🏿‍♂️~",
   description: "Web Development & Software Engineering",
 }
 
