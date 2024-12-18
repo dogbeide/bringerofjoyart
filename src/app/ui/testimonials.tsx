@@ -12,6 +12,15 @@ export default function Testimonials() {
         <div>
           <Image
             className="mb-4 mx-2"
+            src="/images/Testimonial - Brandon InTuatune Hilditch_684x792.png"
+            alt="Testimonial - Branon InTuatune Hilditch"
+            width={319}
+            height={400}
+          />
+        </div>
+        <div>
+          <Image
+            className="mb-4 mx-2"
             src="/images/Testimonial - Haukur Steinn_638x800.png"
             alt="Testimonial - Haukur Steinn"
             width={319}
