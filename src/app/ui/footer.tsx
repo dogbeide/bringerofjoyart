@@ -5,7 +5,7 @@ import logo from '@/../public/images/favicon.png'
 
 export default async function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer flex flex-col items-center text-center py-3">
       <Image
         src={logo}
         height={30}
@@ -13,7 +13,12 @@ export default async function Footer() {
         style={{ marginRight: 5 }}
         alt="IAMBOYOWA Logo"
       />
-      Copyright © <span id="year">{year} </span>iamboyowa
+      <span>
+        Copyright © <span id="year">{year} </span>iamboyowa
+      </span>
+      <div>
+        <a href="/privacy-policy">Privacy Policy</a>
+      </div>
     </footer>
   )
 }
