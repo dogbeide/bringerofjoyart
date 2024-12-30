@@ -19,6 +19,7 @@ const Body = () => {
                     title={project.title}
                     techs={project.techs}
                     inactive={project.inactive}
+                    githubUrl={project.githubUrl}
                 />
             )}
             </div>

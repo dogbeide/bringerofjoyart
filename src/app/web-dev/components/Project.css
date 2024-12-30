@@ -60,6 +60,13 @@
     margin-bottom: 15px;
 }
 
+.project__github {
+    margin-bottom: 10px;
+}
+.project__github:hover {
+    color: blue;
+}
+
 .project__desc {
     color: rgba(0, 0, 0, 0.7);
     font-size: 16px;
@@ -99,6 +106,10 @@
     }
 
     .project__title {
+        text-align: center;
+    }
+
+    .project__github {
         text-align: center;
     }
 

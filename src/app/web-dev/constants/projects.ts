@@ -2,6 +2,7 @@ const projects = [
     {
         id: -5,
         url: "https://www.pandoras-awakening.vercel.app/",
+        githubUrl: "https://github.com/dogbeide/pandoras-awakening",
         img: '/images/pandoras-awakening.png',
         alt: "pandoras-awakening-combined-site",
         title: "www.pandorasawakening.com",
@@ -18,6 +19,7 @@ const projects = [
     {
         id: -4,
         url: "https://www.bringerofjoy.art/",
+        githubUrl: "https://github.com/dogbeide/iamboyowa",
         img: '/images/iamboyowa-art-site.png',
         alt: "bringerofjoy-art-site",
         title: "www.bringerofjoy.art",
@@ -35,6 +37,7 @@ const projects = [
     {
         id: -3,
         url: "https://maze-path-visualizer.netlify.app/",
+        githubUrl: "https://github.com/dogbeide/maze-path-visualizer",
         img: '/images/maze-path-visualizer.png',
         alt: "maze-path-visualizer",
         title: "Maze Path Visualizer",
@@ -48,6 +51,7 @@ const projects = [
     {
         id: -2,
         url: "https://reeftipus-clothing.netlify.app/",
+        githubUrl: "https://github.com/dogbeide/reeftipus-clothing",
         img: '/images/reeftipus-clothing_checkoutcart.png',
         alt: "reeftipus-clothing",
         title: "Reeftipus Clothing",
@@ -64,6 +68,7 @@ const projects = [
     {
         id: -1,
         url: "https://naturesdelightmagic.netlify.app/",
+        githubUrl: "https://github.com/dogbeide/natures-delight-magic",
         img: '/images/naturesdelightmagic_home.png',
         alt: "natures-delight-magic",
         title: "Nature's Delight Magic",

@@ -3,7 +3,7 @@ import './Project.css';
 import TechIcon from './TechIcon';
 
 
-const Project = ({ url, img, alt, title, desc, techs, inactive = false } : {
+const Project = ({ url, img, alt, title, desc, techs, inactive = false, githubUrl } : {
     url: string,
     img: string,
     // width: number,
@@ -12,7 +12,8 @@ const Project = ({ url, img, alt, title, desc, techs, inactive = false } : {
     title: string,
     desc: string,
     techs: any,
-    inactive: boolean | undefined
+    inactive: boolean | undefined,
+    githubUrl?: string,
 }) => {
     return (
         <div className={`project ${inactive ? "inactive" : ""}`}>
@@ -44,7 +45,10 @@ const Project = ({ url, img, alt, title, desc, techs, inactive = false } : {
 
             <div className="project__info">
                 <div className="project__title">
-                    <a href={url} className='text-black underline hover:text-blue-950'>{title}</a>
+                    <a href={url} target='_blank' className='text-black underline hover:text-blue-950'>{title}</a>
+                </div>
+                <div className="project__github">
+                    <a href={githubUrl} target='_blank' className='text-blue-800 underline italic'>🔗(Github repo)</a>
                 </div>
                 <div className="project__desc">{desc}</div>
             </div>
