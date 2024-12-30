@@ -17,10 +17,10 @@ const projects = [
     },
     {
         id: -4,
-        url: "https://www.iamboyowa.art/",
+        url: "https://www.bringerofjoy.art/",
         img: '/images/iamboyowa-art-site.png',
-        alt: "iamboyowa-art-site",
-        title: "www.iamboyowa.art",
+        alt: "bringerofjoy-art-site",
+        title: "www.bringerofjoy.art",
         desc: "A rprofessional site, built with the most up-to-date and versatile, \
                 scalable frameworks for both SEO and functionality. For an independent artist, poet, musician, and \
                 healing practitioner to share his gifts, his new book, and offer his services. \

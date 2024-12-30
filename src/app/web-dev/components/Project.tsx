@@ -43,7 +43,9 @@ const Project = ({ url, img, alt, title, desc, techs, inactive = false } : {
             }
 
             <div className="project__info">
-                <div className="project__title">{title}</div>
+                <div className="project__title">
+                    <a href={url} className='text-black underline hover:text-blue-950'>{title}</a>
+                </div>
                 <div className="project__desc">{desc}</div>
             </div>
         </div>
