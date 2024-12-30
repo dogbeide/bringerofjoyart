@@ -11,10 +11,10 @@ export default async function Footer() {
         height={30}
         width={30}
         style={{ marginRight: 5 }}
-        alt="IAMBOYOWA Logo"
+        alt="BRINGER OF JOY Logo"
       />
       <span>
-        Copyright © <span id="year">{year} </span>iamboyowa
+        Copyright © <span id="year">{year} </span>Bringer Of Joy
       </span>
       <div>
         <a href="/privacy-policy">Privacy Policy</a>
