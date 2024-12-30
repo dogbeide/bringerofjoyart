@@ -1,7 +1,7 @@
 const projects = [
     {
         id: -5,
-        url: "https://www.pandoras-awakening.vercel.app/",
+        url: "https://pandoras-awakening.vercel.app/",
         githubUrl: "https://github.com/dogbeide/pandoras-awakening",
         img: '/images/pandoras-awakening.png',
         alt: "pandoras-awakening-combined-site",
