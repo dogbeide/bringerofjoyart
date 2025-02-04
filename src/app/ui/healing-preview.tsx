@@ -7,8 +7,11 @@ export default function HealingPreview() {
   return (
     <div id="healing" className="desc mt-2 px-1">
       <div className="title">
-        <span className="inf">♾️</span> <a>SHAMANIC/MULTIDIMENSIONAL HEALING</a>{" "}
+        <span className="inf">♾️</span> <a>HEALING</a>{" "}
         <span className="inf">♾️</span>
+      </div>
+      <div className="subtitle">
+        <span>REIKI • SOUND • MULTIDIMENSIONAL</span>
       </div>
       <div className="photo-container">
         <Image
