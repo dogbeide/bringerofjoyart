@@ -40,7 +40,7 @@ export default function NavDropdown() {
           HEALING
         </a>
         <div className="dropdown-divider" />
-        <a className="dropdown-item_my text-shadow" href="https://www.linktr.ee/iamboyowa_music">
+        <a className="dropdown-item_my text-shadow" href="https://www.linktr.ee/bringerofjoymusic">
           MUSIC
         </a>
         <a className="dropdown-item_my text-shadow" href="/web-dev">
