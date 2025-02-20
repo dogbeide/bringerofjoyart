@@ -1,11 +1,6 @@
-import Testimonials from "../ui/testimonials"
-import Healing from "../ui/healing"
+'use server';
+import { redirect } from "next/navigation";
 
-export default function Page() {
-  return (
-    <div>
-      <Healing/>
-      <Testimonials />
-    </div>
-  )
+export default async function Page() {
+  redirect("/");
 }

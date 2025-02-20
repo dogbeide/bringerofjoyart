@@ -36,11 +36,8 @@ export default function NavDropdown() {
         <a className="dropdown-item_my text-shadow" href="/#connect">
           CONNECT
         </a>
-        <a className="dropdown-item_my text-shadow" href="/healing">
-          HEALING
-        </a>
         <div className="dropdown-divider" />
-        <a className="dropdown-item_my text-shadow" href="https://www.linktr.ee/bringerofjoymusic">
+        <a className="dropdown-item_my text-shadow" href="/#music">
           MUSIC
         </a>
         <a className="dropdown-item_my text-shadow" href="/web-dev">

@@ -18,20 +18,15 @@ export default function Music() {
         </div>
         <div className="music-video">
           <iframe
-            src="https://www.youtube.com/embed/A2aEOF6sRnE?si=Y01p_eI-FDQkttET"
-            title="Boyowa Youtube ~Beautiful Moment~ [FULL ALBUM]"
-            style={{ border: 0, borderRadius: 6 }}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
+            style={{ borderRadius: 12, maxHeight: 152 }}
+            src="https://open.spotify.com/embed/track/243wtU0nN8355P4WJau7JL?utm_source=generator"
+            width="100%"
+            height={152}
             allowFullScreen={true}
-          ></iframe>
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          />
         </div>
-        {/* <div className="music-video">
-          <iframe src="https://www.youtube.com/embed/30IP08dEE_A"></iframe>
-        </div>
-        <div className="music-video">
-          <iframe src="https://www.youtube.com/embed/Y6NO2hSLje0"></iframe>
-        </div> */}
       </div>
       <div className="more">
         <a

@@ -30,15 +30,11 @@ export default function Nav() {
           </a>
         </div>
         <div>
-          <a href="/healing" className="text-shadow">
-            HEALING
-          </a>
-        </div>
-        <div>
-          <a href="https://www.linktr.ee/bringerofjoymusic" target="_blank" className="text-shadow">
+          <a href="/#music" className="text-shadow">
             MUSIC
           </a>
         </div>
+        
         <div>
           <a href="/web-dev" className="text-shadow">
             WEB-DEV
