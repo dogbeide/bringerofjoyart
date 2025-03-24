@@ -13,27 +13,6 @@ export default function Books() {
       {/* <img class="grain-dient" src="grain.svg" alt=""> */}
       <div className="title">-BOOKS-</div>
       <div className="stuff">
-      <DelayOpenButton linkName="elemental">
-          <div className="book">
-            <div className="book-back-elemental book-inner" />
-            <div className="book-pages book-inner" />
-            <div className="book-pages book-inner" />
-            <div className="book-pages book-inner" />
-            <div className="book-pages book-inner" />
-            <div className="book-cover book-inner">
-              <Image
-                src={frontCover_elemental}
-                alt="visual-slam-artpoetrybook_img"
-                width={300}
-                height={375}
-              />
-            </div>
-            <div className="click-to-open">
-              <span className="text">(Click to Open)</span>
-            </div>
-          </div>
-        </DelayOpenButton>
-
         <DelayOpenButton linkName="amazon">
           <div className="book">
             <div className="book-back-visual_slam book-inner" />
@@ -54,6 +33,28 @@ export default function Books() {
             </div>
           </div>
         </DelayOpenButton>
+        <DelayOpenButton linkName="elemental">
+          <div className="book">
+            <div className="book-back-elemental book-inner" />
+            <div className="book-pages book-inner" />
+            <div className="book-pages book-inner" />
+            <div className="book-pages book-inner" />
+            <div className="book-pages book-inner" />
+            <div className="book-cover book-inner">
+              <Image
+                src={frontCover_elemental}
+                alt="visual-slam-artpoetrybook_img"
+                width={300}
+                height={375}
+              />
+            </div>
+            <div className="click-to-open">
+              <span className="text">(Click to Open)</span>
+            </div>
+          </div>
+        </DelayOpenButton>
+
+        
           
         {/* <div className="desc">
           <span>
