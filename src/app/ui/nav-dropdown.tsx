@@ -27,14 +27,14 @@ export default function NavDropdown() {
       {showDropdown && <div
         className="dropdown-menu dropdown-menu-right my-dropdown"
       >
-        <a className="dropdown-item_my text-shadow" href="/#visual-slam">
-          VISUAL
-        </a>
         <a className="dropdown-item_my text-shadow" href="/#whoami">
           WHOAMI
         </a>
         <a className="dropdown-item_my text-shadow" href="/#connect">
           CONNECT
+        </a>
+        <a className="dropdown-item_my text-shadow" href="/#books">
+          BOOKS
         </a>
         <div className="dropdown-divider" />
         <a className="dropdown-item_my text-shadow" href="/#music">

@@ -1,3 +1,6 @@
+$title-size: 1.7rem;
+$title-size-mobile: 1.6rem;
+
 * {
   scroll-behavior: smooth;
 }
@@ -130,13 +133,14 @@ main {
   }
 }
 
-#visual-slam {
+#books {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   width: 100%;
   // font-family: Amatic SC;
   font-family: Cabin Sketch;
-  font-style: italic;
   font-size: 18px;
   // background-color: skyblue;
   background-image: linear-gradient(
@@ -145,16 +149,23 @@ main {
     white 50%,
     rgba(135, 206, 235, 0.5)
   );
+  .title {
+    z-index: 1;
+    font-size: $title-size;
+    font-weight: bold;
+    color: rgba(0, 84, 173, 0.7);
+  }
   .stuff {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     // max-width: 420px;
-    padding: 25px 0;
+    padding: 10px 0 25px 0;
     width: 510px;
 
     .desc {
       max-width: 250px;
+      font-style: italic;
 
       span {
         text-shadow: 1px 1px 3px rgba(#fffdd0, 1);
@@ -175,7 +186,7 @@ main {
   .title {
     z-index: 1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.7rem;
+    font-size: $title-size;
     .inf {
       font-size: 1.2rem;
     }
@@ -511,7 +522,6 @@ main {
 }
 
 @media only screen and (max-width: 620px) {
-
   #nav-horizontal {
     display: none;
   }
@@ -533,9 +543,13 @@ main {
     }
   }
 
-  #visual-slam {
+  #books {
+    .title {
+      font-size: $title-size-mobile;
+    }
     .stuff {
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: center;
       align-items: center;
       .desc {
         margin-top: 15px;
@@ -549,6 +563,18 @@ main {
     }
     .subtitle {
       font-size: 0.9rem;
+    }
+  }
+
+  #music {
+    .title {
+      font-size: $title-size-mobile;
+    }
+    .desc {
+      font-size: 0.9rem;
+    }
+    .more {
+      font-size: 18px;
     }
   }
   

@@ -2,6 +2,7 @@ export const year = new Date().getFullYear();
 // document.getElementById("year").textContent = year;
 
 const amazon = 'https://www.amazon.com/dp/1738227502';
+const elemental = 'https://www.amazon.com/dp/1738227510';
 const music = 'https://linktr.ee/bringerofjoymusic';
 const linktree_all = 'https://linktr.ee/iamboyowa';
 const instagram = 'https://www.instagram.com/bringerofjoymusic';
@@ -11,6 +12,9 @@ const telegram = 'https://t.me/iamboyowa';
 export const delayOpen = function delayOpen(linkName, ms=500) {
   setTimeout(function () {
     switch(linkName) {
+      case 'elemental':
+        window.open(elemental, "_blank");
+        return;
       case 'amazon':
         window.open(amazon, "_blank");
         return;

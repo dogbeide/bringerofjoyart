@@ -13,11 +13,7 @@ export default function Nav() {
         <div className="sun" />
       </div>
       <div id="nav-horizontal" className="links">
-        <div>
-          <a href="/#visual-slam" className="text-shadow">
-            VISUAL
-          </a>
-        </div>
+        
         <div>
           <a href="/#whoami" className="text-shadow">
             WHOAMI
@@ -27,6 +23,11 @@ export default function Nav() {
         <div>
           <a href="/#connect" className="text-shadow">
             CONNECT
+          </a>
+        </div>
+        <div>
+          <a href="/#books" className="text-shadow">
+            BOOKS
           </a>
         </div>
         <div>
