@@ -14,13 +14,18 @@ export default function HealingPreview() {
         <span>REIKI • SOUND • MULTIDIMENSIONAL</span>
       </div>
       <div className="photo-container">
-        <Image
-          className="photo"
-          src={quantumHealing}
-          height={132}
-          width={176}
-          alt="boyowa_self-portrait-painted"
-        />
+
+        <a href="https://linktr.ee/bringerofjoyhealing"
+          target="_blank"
+        >
+          <Image
+            className="photo"
+            src={quantumHealing}
+            height={132}
+            width={176}
+            alt="boyowa_self-portrait-painted"
+          />
+        </a>
       </div>
       <div className="desc">
         <p>
@@ -31,7 +36,7 @@ export default function HealingPreview() {
             </strong>
           </i>
         </p>
-        <p>
+        {/* <p>
           <span className="we-can-address">
             We can address inner wounds,
             <br />
@@ -42,14 +47,14 @@ export default function HealingPreview() {
           <span className="anything-really">
             (anything really... get creative, Lol!)
           </span>
-        </p>
-        <p>
-          <strong>Whatever is ready 💚</strong>
+        </p> */}
+        <p className="we-can-address">
+          <strong>We can address whatever is ready 💚</strong>
         </p>
         <p>
           <ButtonCTA 
-            href="/healing"
-            target="_self"
+            href="https://linktr.ee/bringerofjoyhealing"
+            target="_blank"
           >
             See More...
           </ButtonCTA>
