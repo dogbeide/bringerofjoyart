@@ -3,6 +3,8 @@ export const year = new Date().getFullYear();
 
 const amazon = 'https://www.amazon.com/dp/1738227502';
 const elemental = 'https://www.amazon.com/dp/1738227510';
+const elemental_prayers_free = "https://tinyurl.com/elemental-prayers-free";
+const visual_slam_free = "https://tinyurl.com/visual-slam-free";
 const music = 'https://linktr.ee/bringerofjoymusic';
 const linktree_all = 'https://linktr.ee/iamboyowa';
 const instagram = 'https://www.instagram.com/bringerofjoymusic';
@@ -17,6 +19,12 @@ export const delayOpen = function delayOpen(linkName, ms=500) {
         return;
       case 'amazon':
         window.open(amazon, "_blank");
+        return;
+      case 'elemental-free':
+        window.open(elemental_prayers_free, "_blank");
+        return;
+      case 'vs-free':
+        window.open(visual_slam_free, "_blank");
         return;
       case 'linktree_all':
         window.open(linktree_all, "_blank");

@@ -1,6 +1,7 @@
 import Image from "next/image"
 import ButtonCTA from "./button-cta"
-import quantumHealing from '@/../public/images/quantum-healing_264x198.jpg';
+// import quantumHealing from '@/../public/images/quantum-healing_264x198.jpg';
+import quantumHealing from '@/../public/images/multidimensionally-activated-autism.jpg';
 
 export default function HealingPreview() {
 
@@ -11,7 +12,7 @@ export default function HealingPreview() {
         <span className="inf">♾️</span>
       </div>
       <div className="subtitle">
-        <span>REIKI • SOUND • MULTIDIMENSIONAL</span>
+        <span>• REIKI • BOOKS • TOOLS</span>
       </div>
       <div className="photo-container">
 
@@ -30,12 +31,20 @@ export default function HealingPreview() {
       <div className="desc">
         <p>
           <i>
-            Shifting the metaphysical and subconscious layers to heal yourself from within.<br />
+            Free Resources for healing yourself within.<br />
             <strong>
               Your own Source connection already knows what to do, organically.
             </strong>
           </i>
         </p>
+        {/* <p>
+          <i>
+            Shifting the metaphysical and subconscious layers to heal yourself from within.<br />
+            <strong>
+              Your own Source connection already knows what to do, organically.
+            </strong>
+          </i>
+        </p> */}
         {/* <p>
           <span className="we-can-address">
             We can address inner wounds,
@@ -48,9 +57,9 @@ export default function HealingPreview() {
             (anything really... get creative, Lol!)
           </span>
         </p> */}
-        <p className="we-can-address">
+        {/* <p className="we-can-address">
           <strong>We can address whatever is ready 💚</strong>
-        </p>
+        </p> */}
         <p>
           <ButtonCTA 
             href="https://linktr.ee/bringerofjoyhealing"

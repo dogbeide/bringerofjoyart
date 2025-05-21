@@ -13,7 +13,7 @@ export default function Books() {
       {/* <img class="grain-dient" src="grain.svg" alt=""> */}
       <div className="title">-BOOKS-</div>
       <div className="stuff">
-        <DelayOpenButton linkName="amazon">
+        <DelayOpenButton linkName="vs-free">
           <div className="book">
             <div className="book-back-visual_slam book-inner" />
             <div className="book-pages book-inner" />
@@ -33,26 +33,32 @@ export default function Books() {
             </div>
           </div>
         </DelayOpenButton>
-        <DelayOpenButton linkName="elemental">
-          <div className="book">
-            <div className="book-back-elemental book-inner" />
-            <div className="book-pages book-inner" />
-            <div className="book-pages book-inner" />
-            <div className="book-pages book-inner" />
-            <div className="book-pages book-inner" />
-            <div className="book-cover book-inner">
-              <Image
-                src={frontCover_elemental}
-                alt="visual-slam-artpoetrybook_img"
-                width={300}
-                height={375}
-              />
+        
+        <div className="flex flex-col items-center">
+          <DelayOpenButton linkName="elemental-free">
+            <div className="book">
+              <div className="book-back-elemental book-inner" />
+              <div className="book-pages book-inner" />
+              <div className="book-pages book-inner" />
+              <div className="book-pages book-inner" />
+              <div className="book-pages book-inner" />
+              <div className="book-cover book-inner">
+                <Image
+                  src={frontCover_elemental}
+                  alt="visual-slam-artpoetrybook_img"
+                  width={300}
+                  height={375}
+                />
+              </div>
+              <div className="click-to-open">
+                <span className="text">(Click to Open)</span>
+              </div>
             </div>
-            <div className="click-to-open">
-              <span className="text">(Click to Open)</span>
-            </div>
+          </DelayOpenButton>
+          <div className="text-center">
+            <a href="#" className="text-blue-500 hover:underline hover:text-blue-100 cursor-pointer">[NEWEST]</a>
           </div>
-        </DelayOpenButton>
+        </div>
 
         
           

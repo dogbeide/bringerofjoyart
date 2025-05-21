@@ -157,7 +157,7 @@ main {
   }
   .stuff {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     // max-width: 420px;
     padding: 10px 0 25px 0;
@@ -546,13 +546,14 @@ main {
   }
 
   #books {
+    font-size: 15px;
     .title {
       font-size: $title-size-mobile;
     }
     .stuff {
-      flex-direction: row;
+      flex-direction: row-reverse;
       justify-content: center;
-      align-items: center;
+      align-items: top;
       .desc {
         margin-top: 15px;
       }
