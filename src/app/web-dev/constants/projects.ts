@@ -1,7 +1,7 @@
 const projects = [
     {
         id: -5,
-        url: "https://pandoras-awakening.vercel.app/",
+        url: "https://www.pandorasawakening.com/",
         githubUrl: "https://github.com/dogbeide/pandoras-awakening",
         img: '/images/pandoras-awakening.png',
         alt: "pandoras-awakening-combined-site",
@@ -19,13 +19,13 @@ const projects = [
     {
         id: -4,
         url: "https://www.bringerofjoy.art/",
-        githubUrl: "https://github.com/dogbeide/iamboyowa",
+        githubUrl: "https://github.com/dogbeide/bringerofjoyart",
         img: '/images/iamboyowa-art-site.png',
         alt: "bringerofjoy-art-site",
         title: "www.bringerofjoy.art",
         desc: "A rprofessional site, built with the most up-to-date and versatile, \
-                scalable frameworks for both SEO and functionality. For an independent artist, poet, musician, and \
-                healing practitioner to share his gifts, his new book, and offer his services. \
+                scalable frameworks for both SEO and functionality. For an independent artist, poet, musician \
+                to share his gifts, his books, and offer his services. \
                 ",
         techs: [
             'NextJS',

@@ -11,21 +11,21 @@ const Social = () => {
         <>
         <div className="social-links">
             <a className="social-icon"
-                href="mailto:iamboyowa@gmail.com"
+                href="mailto:boyowadavid@gmail.com"
                 target="_blank"
             >
                 <FontAwesomeIcon icon={faEnvelope}
                 ></FontAwesomeIcon>
             </a>
             <a className="social-icon"
-                href="https://wa.me/14378782696"
+                href="https://wa.me/14389902781"
                 target="_blank"
             >
                 <FontAwesomeIcon icon={faWhatsapp}
                 ></FontAwesomeIcon>
             </a>
             <a className="social-icon"
-                href="https://www.linkedin.com/in/boyowa-ogbeide-037528a5/"
+                href="https://www.linkedin.com/in/david-boyowa-ogbeide-037528a5/"
                 target="_blank"
             >
                 <FontAwesomeIcon icon={faLinkedin}

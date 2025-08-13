@@ -5,7 +5,7 @@ function Header() {
     
     return (
         <div className="header">
-            <h1 className="header-title">Hi, I&apos;m Boyowa David Ogbeide</h1>
+            <h1 className="header-title">Hi, I&apos;m David Ogbeide</h1>
             <Image 
                 id="david-ogbeide" 
                 src="/images/davidogbeide_suit.jpg" 

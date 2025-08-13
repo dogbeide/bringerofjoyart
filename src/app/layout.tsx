@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Head from "next/head";
-
 import Nav from './ui/nav'
 import Footer from './ui/footer'
 import "./index.scss";
@@ -39,7 +38,7 @@ export default function RootLayout({
       </Head>
       <body className="">
         {/* <InstallBootstrap /> */}
-        <Nav />
+        {<Nav />}
         <main>
           {children}
         </main>

@@ -1,11 +1,15 @@
 import Image from "next/image";
+import { headers } from "next/headers";
 import "bootstrap/dist/css/bootstrap.min.css";
 import faviconPNG from '../../../public/images/favicon.png'
 import NavDropdown from "./nav-dropdown";
 
-export default function Nav() {
+export default async function Nav() {
+  const headerList = await headers();
+  const currentPath = headerList.get("x-current-path") || "";
+
   return (
-    <nav className={`navbar navbar-expand-md`}>
+    <nav className={`navbar navbar-expand-md ${currentPath === "/web-dev" ? "hidden" : ""}`}>
       <div className="navbar-brand logo sun-container">
         <a href="/">
           <Image src={faviconPNG} alt="IAMBOYOWA Logo" />
