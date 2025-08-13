@@ -12,7 +12,7 @@ export default function Home() {
 
       <Music />
 
-      <HealingPreview />
+      {/* <HealingPreview /> */}
 
       <WhoAmI />
 

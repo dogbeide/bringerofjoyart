@@ -11,7 +11,7 @@ export default function Books() {
   return (
     <div id="books" className="my-container anchor">
       {/* <img class="grain-dient" src="grain.svg" alt=""> */}
-      <div className="title">-BOOKS-</div>
+      {/* <div className="title">- BOOKS -</div> */}
       <div className="stuff">
         <DelayOpenButton linkName="vs-free">
           <div className="book">
@@ -27,9 +27,6 @@ export default function Books() {
                 width={300}
                 height={375}
               />
-            </div>
-            <div className="click-to-open">
-              <span className="text">(Click to Open)</span>
             </div>
           </div>
         </DelayOpenButton>
@@ -50,14 +47,9 @@ export default function Books() {
                   height={375}
                 />
               </div>
-              <div className="click-to-open">
-                <span className="text">(Click to Open)</span>
-              </div>
             </div>
           </DelayOpenButton>
-          <div className="text-center">
-            <a href="#" className="text-blue-500 hover:underline hover:text-blue-100 cursor-pointer">[NEWEST]</a>
-          </div>
+          
         </div>
 
         

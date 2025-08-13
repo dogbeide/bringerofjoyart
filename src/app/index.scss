@@ -71,7 +71,7 @@ nav {
   background-image: linear-gradient(white 85%, transparent);
   z-index: 6;
 
-  font-family: Amatic SC;
+  font-family: Cabin Sketch;
   font-size: 23px;
   // font-weight: bold;
   letter-spacing: 0.1rem;
@@ -139,8 +139,8 @@ main {
   align-items: center;
   justify-content: center;
   width: 100%;
-  // font-family: Amatic SC;
-  font-family: Cabin Sketch;
+  font-family: Amatic SC;
+  // font-family: Cabin Sketch;
   font-size: 18px;
   // background-color: skyblue;
   background-image: linear-gradient(
@@ -298,7 +298,7 @@ main {
 
     .click-for-more {
       color:#d60000;
-
+      
       &:hover {
         text-decoration: underline;
       }
@@ -327,6 +327,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #5e2d008f;
   background-color: blanchedalmond;
   background-image: linear-gradient(
     to left,

@@ -8,8 +8,8 @@ const visual_slam_free = "https://tinyurl.com/visual-slam-free";
 const music = 'https://linktr.ee/bringerofjoymusic';
 const linktree_all = 'https://linktr.ee/iamboyowa';
 const instagram = 'https://www.instagram.com/bringerofjoymusic';
-const whatsapp = 'https://wa.me/14378782696';
-const telegram = 'https://t.me/iamboyowa';
+const whatsapp = 'https://wa.me/14389902781';
+const telegram = 'https://t.me/bringerofjoymusic';
 
 export const delayOpen = function delayOpen(linkName, ms=500) {
   setTimeout(function () {

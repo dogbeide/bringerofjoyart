@@ -35,17 +35,7 @@ export default function Nav() {
             MUSIC
           </a>
         </div>
-        <div>
-          <a href="https://linktr.ee/bringerofjoyhealing" className="text-shadow" target="_blank">
-            HEALING
-          </a>
-        </div>
-        
-        <div>
-          <a href="/web-dev" className="text-shadow">
-            WEB-DEV
-          </a>
-        </div>
+    
       </div>
       <NavDropdown />
     </nav>

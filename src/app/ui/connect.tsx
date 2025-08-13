@@ -23,8 +23,8 @@ export default function Connect() {
               className="icon"
               src={instagramImg}
               alt="instagram-icon"
-              width={32}
-              height={32}
+              width={40}
+              height={40}
             />
           </DelayOpenButton>
 
@@ -33,8 +33,8 @@ export default function Connect() {
               className="icon"
               src={telegramImg}
               alt="whatsapp-icon"
-              width={32}
-              height={32}
+              width={40}
+              height={40}
             />
           </a>
           <a onClick={() => delayOpen('whatsapp', 500)}>
@@ -42,8 +42,8 @@ export default function Connect() {
               className="icon"
               src={whatsappImg}
               alt="whatsapp-icon"
-              width={32}
-              height={32}
+              width={40}
+              height={40}
             />
           </a>
         </div>

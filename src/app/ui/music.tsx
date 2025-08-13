@@ -4,7 +4,7 @@ export default function Music() {
   return (
     <div id="music" className="my-container anchor">
       <div className="title">~MUSIC~</div>
-      <div className="desc">Ayyyyy!...🎶🤪</div>
+      {/* <div className="desc">Ayyyyy!...🎶🤪</div> */}
       <div className="music-video-container">
         <div className="music-video">
           <iframe
@@ -35,16 +35,9 @@ export default function Music() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          (Click for More Music)
+          (Click for ENTIRE DISCOGRAPHY)
         </a>
-        <a
-          className="link-discography"
-          href="https://www.linktr.ee/bringerofjoymusic"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ENTIRE DISCOGRAPHY
-        </a>
+        
       </div>
     </div>
   );
