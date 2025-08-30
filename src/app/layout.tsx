@@ -7,8 +7,8 @@ import "./ui/sun.scss";
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: "Bringer Of Joy ~ART 🎭 | HEALING 💚 | MAGIC 🧙🏿‍♂️~",
-  description: "~ART 🎭 | HEALING 💚 | MAGIC 🧙🏿‍♂️~",
+  title: "Bringer Of Joy ~ ART 🎭 | MUSIC 💚🧙🏿‍♂️ ~",
+  description: "~ ART 🎭 | MUSIC 🧙🏿‍♂️ ~",
 };
 
 export default function RootLayout({

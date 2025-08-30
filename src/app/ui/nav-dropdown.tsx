@@ -37,7 +37,7 @@ export default function NavDropdown() {
         <a className="dropdown-item_my text-shadow" href="/#books">
           BOOKS
         </a>
-        <a className="dropdown-item_my text-shadow" href="/#music">
+        <a className="dropdown-item_my text-shadow" href="/music" target="_blank">
           MUSIC
         </a>
       </div>}

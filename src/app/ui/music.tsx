@@ -7,14 +7,26 @@ export default function Music() {
       {/* <div className="desc">Ayyyyy!...🎶🤪</div> */}
       <div className="music-video-container">
         <div className="music-video">
-          <iframe
+          {/* <iframe
             style={{ border: 0, borderRadius: 12, maxHeight: 360, height: 360 }}
             src="https://open.spotify.com/embed/album/1bqDAEZ8nlfAWelWQi6h5Z?utm_source=generator"
             width="100%"
             allowFullScreen={true}
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
-          />
+          /> */}
+          <iframe
+            style={{ border: 0, borderRadius: 12, width: 360, height: 600, maxHeight: 600 }}
+            src="https://bandcamp.com/EmbeddedPlayer/album=2609122360/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+            width="100%"
+            allowFullScreen={true}
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          >
+            {/* &lt;a href="https://boyowa.bandcamp.com/album/beautiful-moment"&gt;~Beautiful
+            Moment~ by Boyowa&lt;/a&gt; */}
+          </iframe>
+
         </div>
         <div className="music-video">
           <iframe

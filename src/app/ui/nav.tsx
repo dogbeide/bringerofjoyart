@@ -35,7 +35,7 @@ export default async function Nav() {
           </a>
         </div>
         <div>
-          <a href="/#music" className="text-shadow">
+          <a href="/music" className="text-shadow" target="_blank">
             MUSIC
           </a>
         </div>
