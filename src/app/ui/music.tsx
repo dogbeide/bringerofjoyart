@@ -16,7 +16,7 @@ export default function Music() {
             loading="lazy"
           /> */}
           <iframe
-            style={{ border: 0, borderRadius: 12, width: 360, height: 600, maxHeight: 600 }}
+            style={{ border: 0, borderRadius: 12, width: 320, height: 600, maxHeight: 600 }}
             src="https://bandcamp.com/EmbeddedPlayer/album=2609122360/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
             width="100%"
             allowFullScreen={true}
