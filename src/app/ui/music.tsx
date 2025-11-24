@@ -17,7 +17,7 @@ export default function Music() {
           /> */}
           <iframe
             style={{ border: 0, borderRadius: 12, width: 320, height: 600, maxHeight: 600 }}
-            src="https://bandcamp.com/EmbeddedPlayer/album=2609122360/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+            src="https://bandcamp.com/EmbeddedPlayer/album=2099633796/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
             width="100%"
             allowFullScreen={true}
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -26,12 +26,21 @@ export default function Music() {
             {/* &lt;a href="https://boyowa.bandcamp.com/album/beautiful-moment"&gt;~Beautiful
             Moment~ by Boyowa&lt;/a&gt; */}
           </iframe>
-
         </div>
         <div className="music-video">
           <iframe
-            style={{ borderRadius: 12, maxHeight: 152 }}
+            style={{ borderRadius: 12, maxHeight: 152, marginBottom: 12 }}
             src="https://open.spotify.com/embed/track/243wtU0nN8355P4WJau7JL?utm_source=generator"
+            width="100%"
+            height={152}
+            allowFullScreen={true}
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          />
+          <iframe
+            data-testid="embed-iframe"
+            style={{ borderRadius: 12, maxHeight: 152 }}
+            src="https://open.spotify.com/embed/album/2UzOouNz3c3H07BvE6Xf7W?utm_source=generator"
             width="100%"
             height={152}
             allowFullScreen={true}
@@ -43,11 +52,12 @@ export default function Music() {
       <div className="more">
         <a
           className="click-for-more"
-          href="https://www.linktr.ee/bringerofjoymusic"
+          href="https://www.linktr.ee/boyojoymusic"
           target="_blank"
           rel="noopener noreferrer"
         >
-          (Click for ENTIRE DISCOGRAPHY)
+          SEE ALL MUSIC EVER... <br/>
+          (ENTIRE DISCOGRAPHY)
         </a>
         
       </div>
